@@ -1,0 +1,5 @@
+archetype,trades,avg_r,p_confirm_long_med,p_confirm_short_med,p_low_holds_med,p_high_holds_med,cluster_dist_entry_med,breakout_true_rate
+wddrb_sigma_distribution,713,1.0713466899390343,0.53,0.47,0.5,0.5,3.25,0.15568022440392706
+cluster_rejection_fade,182,1.035067452682902,0.53,0.47,0.5,0.5,0.5,0.24175824175824176
+model_forward,426,1.0274888631896995,0.52,0.48,0.5,0.5,4.0,0.2652582159624413
+range_post_break_pullback,119,0.8609782195771206,0.5,0.5,0.5,0.5,4.25,0.12605042016806722

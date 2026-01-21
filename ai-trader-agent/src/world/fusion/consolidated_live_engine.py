@@ -1156,9 +1156,9 @@ class ConsolidatedLiveEngine:
         wdr_high_pct = wdr.wdr_hi_pct
         wdr_low_pct = wdr.wdr_lo_pct
         
-        # Current time indices
-        current_time_idx = intraday.candle_idx if self._is_within_intraday_window(bar) else None
-        current_wdr_time_idx = wdr.candle_idx if self._is_within_wdr_window(bar) else None
+        # Current time indices (subtract 1 because candle_idx is incremented after processing)
+        current_time_idx = (intraday.candle_idx - 1) if self._is_within_intraday_window(bar) else None
+        current_wdr_time_idx = (wdr.candle_idx - 1) if self._is_within_wdr_window(bar) else None
         
         # Mid break features
         adr_mid_break = state["ADR_mid"].broken

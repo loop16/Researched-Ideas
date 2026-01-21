@@ -1,0 +1,117 @@
+
+================================================================================
+BACKTEST: 2.5 SD Target, 0.2% Risk (Max $5,000 per trade) - From 2019
+================================================================================
+
+============================================================
+Running Multi-Asset Two Bullet Backtest
+============================================================
+
+Hardcoded Parameters:
+  Cluster 1: Entry 0.2, Stop -0.2
+  Cluster 2: Entry -0.4, Stop -0.8
+  Exit: Stop, 2.5 SD Target, or End of Session
+============================================================
+
+Running backtest for ES...
+Loading OHLCV data from: /Users/orlandocantoni/Desktop/RBC auto model/ES_full_5min.csv
+Loaded 1240682 bars from 2008-01-02 06:00:00-05:00 to 2025-08-01 16:55:00-04:00
+  Found 2540 trades for ES
+
+Running backtest for NQ...
+Loading OHLCV data from: /Users/orlandocantoni/Desktop/RBC auto model/NQ_full_5min.csv
+Loaded 1232504 bars from 2008-01-02 06:00:00-05:00 to 2025-08-01 16:55:00-04:00
+  Found 2342 trades for NQ
+
+Running backtest for GC...
+Loading OHLCV data from: /Users/orlandocantoni/Desktop/RBC auto model/GC_full_5min.csv
+Loaded 1246433 bars from 2008-01-27 18:00:00-05:00 to 2025-08-01 16:55:00-04:00
+  Found 2113 trades for GC
+
+Running backtest for CL...
+Loading OHLCV data from: /Users/orlandocantoni/Desktop/RBC auto model/CL_full_5min.csv
+Loaded 1249783 bars from 2008-01-01 18:00:00-05:00 to 2025-08-01 16:55:00-04:00
+  Found 2521 trades for CL
+
+Running backtest for J1...
+Loading OHLCV data from: /Users/orlandocantoni/Desktop/RBC auto model/J1_full_5min.csv
+Loaded 1246072 bars from 2008-01-02 06:00:00-05:00 to 2025-08-05 18:30:00-04:00
+  Found 2201 trades for J1
+
+Backtest completed. Found 11717 total trades.
+
+============================================================
+SUMMARY
+============================================================
+                       metric         value
+                 Total Trades         11717
+                     Win Rate        30.83%
+                      Avg PnL      1.879495
+                    Total PnL  22022.041399
+               Avg R-Multiple      0.264995
+Sharpe Ratio (Pre-Commission)         4.202
+                    ES Trades          2540
+                  ES Win Rate        27.52%
+                     ES Avg R      0.211176
+                    NQ Trades          2342
+                  NQ Win Rate        32.45%
+                     NQ Avg R      0.288436
+                    GC Trades          2113
+                  GC Win Rate        35.16%
+                     GC Avg R      0.253519
+                    CL Trades          2521
+                  CL Win Rate        28.16%
+                     CL Avg R      0.292321
+                    J1 Trades          2201
+                  J1 Win Rate        31.80%
+                     J1 Avg R      0.281879
+
+Trades saved to backtest_results_2.5sd/trades_two_bullet_2.5_sd.csv
+
+============================================================
+EXIT REASONS (All Assets Combined)
+============================================================
+exit_reason
+STOP             7634
+SESSION_CLOSE    3443
+TARGET            640
+Name: count, dtype: int64
+
+============================================================
+GENERATING R-MULTIPLE EQUITY CURVES
+============================================================
+
+Equity curve plot saved as 'backtest_results_2.5sd/equity_curves_by_asset.png'
+
+============================================================
+GENERATING EQUITY CURVE (0.2% Risk, Max $5,000 per trade)
+============================================================
+Commission-aware equity plot saved as 'backtest_results_2.5sd/equity_with_commissions.png'
+
+Commission-Aware Summary (Risk 0.2%):
+Starting Equity: $100,000.00
+Final Equity: $5,354,299.50
+Total Return: 5254.30%
+Total P&L: $6,412,215.50
+Total Commissions: $1,157,916.00
+Net P&L: $5,254,299.50
+Commission as % of P&L: 18.06%
+
+Filtered Summary (Skipping trades where commission > 15% of risk):
+Skipped Trades: 839
+Starting Equity: $100,000.00
+Final Equity: $4,718,462.63
+Total Return: 4618.46%
+Total P&L: $5,341,012.63
+Total Commissions: $722,550.00
+Net P&L: $4,618,462.63
+Commission as % of P&L: 13.53%
+Avg Commission/Risk Ratio (filtered): 3.66%
+Max Commission/Risk Ratio (filtered): 15.00%
+
+============================================================
+SHARPE RATIO COMPARISON
+============================================================
+1. No Commissions (R-multiples):           4.202
+2. With Commissions (All Trades):          2.549
+3. Filtered (Comm <= 15% of Risk):        2.443

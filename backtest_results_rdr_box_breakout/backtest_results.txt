@@ -1,0 +1,36 @@
+======================================================================
+RDR Overnight Breakout - 5R Strategy (1-Tick Slippage)
+======================================================================
+Range: 09:30-15:55 | Breakout: After 15:55 | Exit: 15:55 next day
+Stop Ratio: 0.75 | Divisor: 6.0 (5R) | Slippage: 1 tick
+Period: 2008-2025
+======================================================================
+
+SUMMARY
+======================================================================
+Total Trades: 13,631
+Total R: 4,445.07R
+Win Rate: 26.8%
+Avg R/Trade: 0.326R
+Sharpe Ratio: 3.69
+
+BY ASSET
+----------------------------------------------------------------------
+  ES: 2,283 trades, 426.57R, 25.8% WR
+  NQ: 2,044 trades, 720.73R, 25.2% WR
+  J1: 3,497 trades, 1,251.72R, 28.9% WR
+  CL: 2,621 trades, 831.13R, 25.3% WR
+  GC: 3,186 trades, 1,214.91R, 27.3% WR
+
+COMMISSION ANALYSIS ($500 Max Risk)
+======================================================================
+
+All Trades:
+  Final Equity: $1,603,199
+  Trades: 13,631
+  Total Commissions: $455,222
+
+20% Commission Filter:
+  Final Equity: $1,539,953
+  Trades: 13,176, Skipped: 455
+  Total Commissions: $400,279

@@ -1,0 +1,19 @@
+source,entry_method,trades
+2011-2016,Confirmation,109
+2018,Frontrun,14
+2018,Advanced,13
+2018,Mode,12
+2018,M7 Candle,6
+2018,Missed,4
+2018_set2,Frontrun,84
+2018_set2,Mode,63
+2018_set2,Advanced,25
+2018_set2,Retired,6
+2018_set2,Median,4
+2018_set2,Goldfish,2
+2022,Mode,64
+2022,Advanced,46
+2022,Frontrun,32
+2022,M7 Candle,6
+2022,Retired,2
+2022,WDR R...,1

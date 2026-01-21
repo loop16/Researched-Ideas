@@ -1,0 +1,8 @@
+date,time,close,high,low,mid,box_dir,model,session_true,first_break,first_break_held,wddrb_break,signal,confidence,bull_score,bear_score,entry_candle,entry_price,reasons
+2025-05-12,19:55,5864.25,5866.25,5851.25,5858.75,down,RC,False,Down,False,up,SELL,0.65,2.0,3.5,Pullback to mid or range high,5858.75,Box DOWN | HTF UP | First break DOWN (failed) | P(low holds)=100% | P(high holds)=100%
+2025-05-13,19:55,5903.75,5911.5,5902.25,5906.875,up,UXP,True,Up,True,up,BUY,0.95,6.5,0.5,Pullback to mid or range low,5906.875,Box UP | HTF UP | First break UP held | Model UXP | P(low holds)=100% | P(high holds)=100%
+2025-05-14,19:55,5909.5,5914.0,5906.5,5910.25,down,RX,True,Down,True,0,SELL,0.9,0.5,4.5,Pullback to mid or range high,5910.25,Box DOWN | First break DOWN held | P(low holds)=100% | P(high holds)=100%
+2025-05-15,19:55,5938.25,5939.0,5925.75,5932.375,up,UX,True,Down,False,down,FLAT,0.5,3.0,3.0,No entry,,Box UP | HTF DOWN | First break DOWN (failed) | Model UX | P(low holds)=100% | P(high holds)=100% | Mixed signals
+2025-05-16,19:55,5975.25,5977.5,5970.75,5974.125,down,U,False,Up,False,up,FLAT,0.5,3.5,2.5,No entry,,Box DOWN | HTF UP | First break UP (failed) | Model U | P(low holds)=100% | P(high holds)=100% | Mixed signals
+2025-05-19,19:55,5981.25,5984.5,5975.0,5979.75,up,UXP,True,Up,True,up,BUY,0.95,6.5,0.5,Pullback to mid or range low,5979.75,Box UP | HTF UP | First break UP held | Model UXP | P(low holds)=100% | P(high holds)=100%
+2025-05-20,19:55,5959.25,5961.0,5952.25,5956.625,down,D,False,Down,False,up,SELL,0.7,2.0,4.0,Pullback to mid or range high,5956.625,Box DOWN | HTF UP | First break DOWN (failed) | Model D | P(low holds)=100% | P(high holds)=100%

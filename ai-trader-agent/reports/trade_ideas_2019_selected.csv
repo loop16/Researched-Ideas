@@ -1,0 +1,361 @@
+ts,timestamp,symbol,session,archetype,direction,entry,stop,target,risk,reward,r_multiple,confidence,reasons,horizon,outcome,exit_price,ambiguous,month
+1546443000,2019-01-02 10:30:00,ES,RS,wddrb_sigma_distribution,long,2482.25,2480.25,2494.75,2.0,12.5,6.25,0.55,"['wddrb_mid_sigma', 'model_up_bias']",session,target,2494.75,False,2019-01
+1546443000,2019-01-02 10:30:00,ES,RS,model_forward,long,2482.25,2480.25,2494.75,2.0,12.5,6.25,0.55,"['model_up_bias', 'model_up_bias']",session,target,2494.75,False,2019-01
+1547049900,2019-01-09 11:05:00,ES,RS,cluster_rejection_fade,long,2581.75,2579.625,2590.25,2.125,8.5,4.0,0.7000000000000001,"['rejection_bias', 'cluster_confluence', 'model_up_bias', 'cluster_near_weekly']",session,target,2590.25,False,2019-01
+1547049900,2019-01-09 11:05:00,ES,RS,model_forward,long,2581.75,2579.625,2590.25,2.125,8.5,4.0,0.7000000000000001,"['model_up_bias', 'model_up_bias', 'cluster_near_weekly']",session,target,2590.25,False,2019-01
+1548234600,2019-01-23 04:10:00,ES,OS,wddrb_sigma_distribution,long,2635.5,2633.5,2656.5,2.0,21.0,3.875,0.6,['wddrb_mid_sigma'],session,timeout,2643.25,False,2019-01
+1548234600,2019-01-23 04:10:00,ES,OS,model_forward,long,2635.5,2633.5,2656.5,2.0,21.0,3.875,0.6,['model_up_bias'],session,timeout,2643.25,False,2019-01
+1548236400,2019-01-23 04:40:00,ES,OS,wddrb_sigma_distribution,long,2637.0,2635.0,2656.5,2.0,19.5,3.125,0.6,['wddrb_mid_sigma'],session,timeout,2643.25,False,2019-01
+1548236400,2019-01-23 04:40:00,ES,OS,model_forward,long,2637.0,2635.0,2656.5,2.0,19.5,3.125,0.6,['model_up_bias'],session,timeout,2643.25,False,2019-01
+1547045100,2019-01-09 09:45:00,ES,RR,cluster_rejection_fade,long,2581.0,2579.0,2586.5,2.0,5.5,2.75,0.7000000000000001,"['rejection_bias', 'cluster_confluence', 'model_up_bias', 'cluster_near_weekly']",session,target,2586.5,False,2019-01
+1548835200,2019-01-30 03:00:00,ES,OR,wddrb_sigma_distribution,long,2640.25,2638.25,2650.0,2.0,9.75,2.625,0.7000000000000001,"['wddrb_mid_sigma', 'model_up_bias', 'cluster_near_weekly']",session,timeout,2645.5,False,2019-01
+1548835200,2019-01-30 03:00:00,ES,OR,cluster_rejection_fade,long,2640.25,2638.25,2650.0,2.0,9.75,2.625,0.7000000000000001,"['rejection_bias', 'cluster_confluence', 'model_up_bias', 'cluster_near_weekly']",session,timeout,2645.5,False,2019-01
+1547602200,2019-01-15 20:30:00,ES,AS,wddrb_sigma_distribution,long,2602.75,2599.0,2613.75,3.75,11.0,2.4,0.6000000000000001,"['wddrb_mid_sigma', 'model_up_bias']",session,timeout,2611.75,False,2019-01
+1547602200,2019-01-15 20:30:00,ES,AS,model_forward,long,2602.75,2599.0,2613.75,3.75,11.0,2.4,0.6000000000000001,"['model_up_bias', 'model_up_bias']",session,timeout,2611.75,False,2019-01
+1548858900,2019-01-30 09:35:00,ES,RR,cluster_rejection_fade,short,2656.25,2658.25,2651.5,2.0,4.75,2.375,0.65,"['rejection_bias', 'cluster_confluence', 'cluster_near_darkpool']",session,target,2651.5,False,2019-01
+1548257400,2019-01-23 10:30:00,ES,RS,wddrb_sigma_distribution,short,2641.5,2646.25,2631.25,4.75,10.25,2.1578947368421053,0.55,"['wddrb_mid_sigma', 'cluster_near_weekly']",session,target,2631.25,False,2019-01
+1547629200,2019-01-16 04:00:00,ES,OS,model_forward,short,2614.75,2616.75,2569.5,2.0,45.25,1.875,0.6000000000000001,"['model_down_bias', 'model_down_bias']",session,timeout,2611.0,False,2019-01
+1548858600,2019-01-30 09:30:00,ES,RR,cluster_rejection_fade,short,2655.0,2657.0,2651.5,2.0,3.5,1.75,0.65,"['rejection_bias', 'cluster_confluence', 'cluster_near_darkpool']",session,target,2651.5,False,2019-01
+1547047800,2019-01-09 10:30:00,ES,RS,wddrb_sigma_distribution,short,2577.75,2583.625,2570.375,5.875,7.375,1.25531914893617,0.5,['wddrb_mid_sigma'],session,target,2570.375,False,2019-01
+1548838800,2019-01-30 04:00:00,ES,OS,wddrb_sigma_distribution,long,2644.75,2639.625,2650.0,5.125,5.25,1.024390243902439,0.65,"['wddrb_mid_sigma', 'model_up_bias']",session,target,2650.0,False,2019-01
+1548838800,2019-01-30 04:00:00,ES,OS,model_forward,long,2644.75,2639.625,2650.0,5.125,5.25,1.024390243902439,0.65,"['model_up_bias', 'model_up_bias']",session,target,2650.0,False,2019-01
+1548257400,2019-01-23 10:30:00,ES,RS,model_forward,long,2641.5,2646.25,2653.75,4.75,12.25,1.0,0.7000000000000001,"['model_up_bias', 'model_up_bias', 'cluster_near_weekly']",session,stop,2646.25,False,2019-01
+1547047800,2019-01-09 10:30:00,ES,RS,model_forward,long,2577.75,2583.625,2590.25,5.875,12.5,1.0,0.65,"['model_up_bias', 'model_up_bias']",session,stop,2583.625,False,2019-01
+1548203400,2019-01-22 19:30:00,ES,AR,model_forward,long,2634.25,2636.5,2656.5,2.25,22.25,1.0,0.65,"['model_up_bias', 'model_up_bias']",session,stop,2636.5,False,2019-01
+1548256500,2019-01-23 10:15:00,ES,RR,model_forward,long,2645.0,2649.125,2653.75,4.125,8.75,1.0,0.65,"['model_up_bias', 'model_up_bias']",session,stop,2649.125,False,2019-01
+1548230400,2019-01-23 03:00:00,ES,OR,wddrb_sigma_distribution,long,2629.5,2636.5,2656.5,7.0,27.0,1.0,0.6,['wddrb_mid_sigma'],session,stop,2636.5,False,2019-01
+1548230400,2019-01-23 03:00:00,ES,OR,model_forward,long,2629.5,2636.5,2656.5,7.0,27.0,1.0,0.6,['model_up_bias'],session,stop,2636.5,False,2019-01
+1546408500,2019-01-02 00:55:00,ES,AS,model_forward,long,2478.0,2496.375,2510.0,18.375,32.0,1.0,0.55,"['model_up_bias', 'model_up_bias']",session,stop,2496.375,False,2019-01
+1546431000,2019-01-02 07:10:00,ES,OS,model_forward,long,2476.0,2496.375,2510.0,20.375,34.0,1.0,0.55,"['model_up_bias', 'model_up_bias']",session,stop,2496.375,False,2019-01
+1546432500,2019-01-02 07:35:00,ES,OS,model_forward,long,2472.0,2496.375,2510.0,24.375,38.0,1.0,0.55,"['model_up_bias', 'model_up_bias']",session,stop,2496.375,False,2019-01
+1546392900,2019-01-01 20:35:00,ES,AS,wddrb_sigma_distribution,short,2516.25,2496.375,2469.125,19.875,47.125,1.0,0.5,['wddrb_mid_sigma'],session,stop,2496.375,False,2019-01
+1551284400,2019-02-27 11:20:00,ES,RS,model_forward,long,2785.0,2783.0,2792.5,2.0,7.5,3.75,0.6000000000000001,"['model_up_bias', 'model_up_bias']",session,target,2792.5,False,2019-02
+1550679600,2019-02-20 11:20:00,ES,RS,wddrb_sigma_distribution,long,2781.5,2779.5,2785.5,2.0,4.0,2.0,0.55,"['wddrb_mid_sigma', 'model_up_bias']",session,target,2785.5,False,2019-02
+1550679600,2019-02-20 11:20:00,ES,RS,model_forward,long,2781.5,2779.5,2785.5,2.0,4.0,2.0,0.55,"['model_up_bias', 'model_up_bias']",session,target,2785.5,False,2019-02
+1549440000,2019-02-06 03:00:00,ES,OR,wddrb_sigma_distribution,long,2727.0,2730.0,2737.75,3.0,10.75,1.0,0.7000000000000001,"['wddrb_mid_sigma', 'model_up_bias', 'cluster_near_weekly']",session,stop,2730.0,False,2019-02
+1549440000,2019-02-06 03:00:00,ES,OR,cluster_rejection_fade,long,2727.0,2730.0,2737.75,3.0,10.75,1.0,0.7000000000000001,"['rejection_bias', 'cluster_confluence', 'model_up_bias', 'cluster_near_weekly']",session,stop,2730.0,False,2019-02
+1549443600,2019-02-06 04:00:00,ES,OS,cluster_rejection_fade,long,2726.25,2730.0,2737.75,3.75,11.5,1.0,0.7000000000000001,"['rejection_bias', 'cluster_confluence', 'model_up_bias', 'cluster_near_weekly']",session,stop,2730.0,False,2019-02
+1549443600,2019-02-06 04:00:00,ES,OS,model_forward,long,2726.25,2730.0,2737.75,3.75,11.5,1.0,0.7000000000000001,"['model_up_bias', 'model_up_bias', 'cluster_near_weekly']",session,stop,2730.0,False,2019-02
+1551239100,2019-02-26 22:45:00,ES,AS,wddrb_sigma_distribution,long,2790.75,2796.5,2803.5,5.75,12.75,1.0,0.7000000000000001,"['wddrb_mid_sigma', 'model_up_bias', 'cluster_near_weekly']",session,stop,2796.5,False,2019-02
+1551239100,2019-02-26 22:45:00,ES,AS,cluster_rejection_fade,long,2790.75,2796.5,2803.5,5.75,12.75,1.0,0.7000000000000001,"['rejection_bias', 'cluster_confluence', 'model_up_bias', 'cluster_near_weekly']",session,stop,2796.5,False,2019-02
+1550021400,2019-02-12 20:30:00,ES,AS,model_forward,short,2752.25,2748.0,2715.0,4.25,37.25,1.0,0.65,"['model_down_bias', 'model_down_bias']",session,stop,2748.0,False,2019-02
+1550653200,2019-02-20 04:00:00,ES,OS,cluster_rejection_fade,short,2779.0,2776.75,2755.25,2.25,23.75,1.0,0.65,"['rejection_bias', 'cluster_confluence', 'cluster_near_darkpool']",session,stop,2776.75,False,2019-02
+1551281400,2019-02-27 10:30:00,ES,RS,model_forward,long,2778.25,2783.75,2792.5,5.5,14.25,1.0,0.65,"['model_up_bias', 'model_up_bias']",session,stop,2783.75,False,2019-02
+1551227400,2019-02-26 19:30:00,ES,AR,wddrb_sigma_distribution,long,2790.5,2796.5,2803.5,6.0,13.0,1.0,0.6000000000000001,"['wddrb_mid_sigma', 'model_up_bias', 'cluster_near_weekly']",session,stop,2796.5,False,2019-02
+1551239700,2019-02-26 22:55:00,ES,AS,wddrb_sigma_distribution,long,2791.5,2796.5,2803.5,5.0,12.0,1.0,0.6000000000000001,"['wddrb_mid_sigma', 'model_up_bias', 'cluster_near_weekly']",session,stop,2796.5,False,2019-02
+1551255300,2019-02-27 03:15:00,ES,OR,model_forward,long,2785.0,2796.5,2803.5,11.5,18.5,1.0,0.6000000000000001,"['model_up_bias', 'model_up_bias']",session,stop,2796.5,False,2019-02
+1551259200,2019-02-27 04:20:00,ES,OS,model_forward,long,2783.25,2796.5,2803.5,13.25,20.25,1.0,0.6000000000000001,"['model_up_bias', 'model_up_bias']",session,stop,2796.5,False,2019-02
+1551279600,2019-02-27 10:00:00,ES,RR,wddrb_sigma_distribution,long,2785.5,2788.375,2792.5,2.875,7.0,1.0,0.6000000000000001,"['wddrb_mid_sigma', 'model_up_bias']",session,stop,2788.375,False,2019-02
+1551279600,2019-02-27 10:00:00,ES,RR,model_forward,long,2785.5,2788.375,2792.5,2.875,7.0,1.0,0.6000000000000001,"['model_up_bias', 'model_up_bias']",session,stop,2788.375,False,2019-02
+1551286800,2019-02-27 12:00:00,ES,RS,wddrb_sigma_distribution,short,2788.5,2783.75,2766.25,4.75,22.25,1.0,0.6,['wddrb_mid_sigma'],session,stop,2783.75,False,2019-02
+1550044800,2019-02-13 03:00:00,ES,OR,model_forward,short,2752.25,2748.0,2715.0,4.25,37.25,1.0,0.55,"['model_down_bias', 'model_down_bias']",session,stop,2748.0,False,2019-02
+1550048400,2019-02-13 04:00:00,ES,OS,wddrb_sigma_distribution,short,2751.25,2737.0,2715.0,14.25,36.25,1.0,0.55,"['wddrb_mid_sigma', 'model_down_bias']",session,stop,2737.0,False,2019-02
+1550048400,2019-02-13 04:00:00,ES,OS,model_forward,short,2751.25,2748.0,2715.0,3.25,36.25,1.0,0.55,"['model_down_bias', 'model_down_bias']",session,stop,2748.0,False,2019-02
+1550075100,2019-02-13 11:25:00,ES,RS,wddrb_sigma_distribution,long,2752.25,2757.0,2762.0,4.75,9.75,1.0,0.55,"['wddrb_mid_sigma', 'model_up_bias']",session,stop,2757.0,False,2019-02
+1550075100,2019-02-13 11:25:00,ES,RS,model_forward,long,2752.25,2757.0,2762.0,4.75,9.75,1.0,0.55,"['model_up_bias', 'model_up_bias']",session,stop,2757.0,False,2019-02
+1551245100,2019-02-27 00:25:00,ES,AS,wddrb_sigma_distribution,long,2792.75,2796.5,2803.5,3.75,10.75,1.0,0.55,"['wddrb_mid_sigma', 'model_up_bias']",session,stop,2796.5,False,2019-02
+1551245100,2019-02-27 00:25:00,ES,AS,model_forward,long,2792.75,2796.5,2803.5,3.75,10.75,1.0,0.55,"['model_up_bias', 'model_up_bias']",session,stop,2796.5,False,2019-02
+1551254700,2019-02-27 03:05:00,ES,OR,wddrb_sigma_distribution,long,2786.25,2796.5,2803.5,10.25,17.25,1.0,0.55,"['wddrb_mid_sigma', 'model_up_bias']",session,stop,2796.5,False,2019-02
+1551258000,2019-02-27 04:00:00,ES,OS,model_forward,long,2782.25,2796.5,2803.5,14.25,21.25,1.0,0.55,"['model_up_bias', 'model_up_bias']",session,stop,2796.5,False,2019-02
+1550622600,2019-02-19 19:30:00,ES,AR,wddrb_sigma_distribution,long,2777.75,2775.75,2787.5,2.0,9.75,0.75,0.6000000000000001,"['wddrb_mid_sigma', 'model_up_bias', 'cluster_near_darkpool']",session,timeout,2779.25,False,2019-02
+1550673000,2019-02-20 09:30:00,ES,RR,wddrb_sigma_distribution,long,2780.0,2778.0,2781.25,2.0,1.25,0.625,0.65,"['wddrb_mid_sigma', 'model_up_bias']",session,target,2781.25,False,2019-02
+1552464000,2019-03-13 04:00:00,ES,OS,wddrb_sigma_distribution,long,2791.0,2789.0,2798.25,2.0,7.25,3.625,0.55,"['wddrb_mid_sigma', 'model_up_bias']",session,target,2798.25,False,2019-03
+1553526000,2019-03-25 11:00:00,ES,RS,model_forward,long,2804.75,2801.875,2813.5,2.875,8.75,3.0434782608695654,0.55,"['model_up_bias', 'model_up_bias']",session,target,2813.5,False,2019-03
+1553002200,2019-03-19 09:30:00,ES,RR,wddrb_sigma_distribution,long,2849.5,2847.5,2852.0,2.0,2.5,1.25,0.6000000000000001,"['wddrb_mid_sigma', 'model_up_bias']",session,target,2852.0,False,2019-03
+1551862800,2019-03-06 04:00:00,ES,OS,wddrb_sigma_distribution,long,2785.5,2790.0,2796.75,4.5,11.25,1.0,0.7000000000000001,"['wddrb_mid_sigma', 'model_up_bias', 'cluster_near_weekly']",session,stop,2790.0,False,2019-03
+1551862800,2019-03-06 04:00:00,ES,OS,model_forward,long,2785.5,2790.0,2796.75,4.5,11.25,1.0,0.7000000000000001,"['model_up_bias', 'model_up_bias', 'cluster_near_weekly']",session,stop,2790.0,False,2019-03
+1553473800,2019-03-24 20:30:00,ES,AS,cluster_rejection_fade,long,2801.5,2828.5,2851.75,27.0,50.25,1.0,0.65,"['rejection_bias', 'cluster_confluence', 'cluster_near_darkpool']",session,stop,2828.5,False,2019-03
+1551832200,2019-03-05 19:30:00,ES,AR,wddrb_sigma_distribution,long,2784.25,2790.0,2796.75,5.75,12.5,1.0,0.6000000000000001,"['wddrb_mid_sigma', 'model_up_bias', 'cluster_near_weekly']",session,stop,2790.0,False,2019-03
+1551832200,2019-03-05 19:30:00,ES,AR,model_forward,long,2784.25,2790.0,2796.75,5.75,12.5,1.0,0.6000000000000001,"['model_up_bias', 'model_up_bias', 'cluster_near_weekly']",session,stop,2790.0,False,2019-03
+1551886200,2019-03-06 10:30:00,ES,RS,model_forward,long,2776.0,2783.25,2790.75,7.25,14.75,1.0,0.6000000000000001,"['model_up_bias', 'model_up_bias']",session,stop,2783.25,False,2019-03
+1552460400,2019-03-13 03:00:00,ES,OR,wddrb_sigma_distribution,long,2787.75,2792.125,2798.25,4.375,10.5,1.0,0.6000000000000001,"['wddrb_mid_sigma', 'model_up_bias', 'cluster_near_weekly']",session,stop,2792.125,False,2019-03
+1552460400,2019-03-13 03:00:00,ES,OR,model_forward,long,2787.75,2792.125,2798.25,4.375,10.5,1.0,0.6000000000000001,"['model_up_bias', 'model_up_bias', 'cluster_near_weekly']",session,stop,2792.125,False,2019-03
+1551859200,2019-03-06 03:00:00,ES,OR,wddrb_sigma_distribution,long,2787.0,2790.0,2796.75,3.0,9.75,1.0,0.55,"['wddrb_mid_sigma', 'model_up_bias']",session,stop,2790.0,False,2019-03
+1552953600,2019-03-18 20:00:00,ES,AR,wddrb_sigma_distribution,short,2840.25,2834.25,2820.75,6.0,19.5,1.0,0.55,"['wddrb_mid_sigma', 'model_down_bias']",session,stop,2834.25,False,2019-03
+1552955400,2019-03-18 20:30:00,ES,AS,wddrb_sigma_distribution,short,2839.75,2834.25,2820.75,5.5,19.0,1.0,0.55,"['wddrb_mid_sigma', 'model_down_bias']",session,stop,2834.25,False,2019-03
+1553472000,2019-03-24 20:00:00,ES,AR,model_forward,long,2808.5,2828.5,2851.75,20.0,43.25,1.0,0.55,"['model_up_bias', 'model_up_bias']",session,stop,2828.5,False,2019-03
+1553472600,2019-03-24 20:10:00,ES,AR,model_forward,long,2806.0,2828.5,2851.75,22.5,45.75,1.0,0.55,"['model_up_bias', 'model_up_bias']",session,stop,2828.5,False,2019-03
+1553524200,2019-03-25 10:30:00,ES,RS,model_forward,long,2798.5,2801.875,2813.5,3.375,15.0,1.0,0.55,"['model_up_bias', 'model_up_bias']",session,stop,2801.875,False,2019-03
+1553010000,2019-03-19 11:40:00,ES,RS,wddrb_sigma_distribution,short,2851.0,2848.625,2840.375,2.375,10.625,1.0,0.5,['wddrb_mid_sigma'],session,stop,2848.625,False,2019-03
+1553510700,2019-03-25 06:45:00,ES,OS,wddrb_sigma_distribution,long,2809.5,2828.5,2851.75,19.0,42.25,1.0,0.5,['wddrb_mid_sigma'],session,stop,2828.5,False,2019-03
+1553010000,2019-03-19 11:40:00,ES,RS,model_forward,long,2851.0,2848.625,2852.75,2.375,1.75,0.7368421052631579,0.55,"['model_up_bias', 'model_up_bias']",session,target,2852.75,False,2019-03
+1552435200,2019-03-12 20:00:00,ES,AR,wddrb_sigma_distribution,long,2790.75,2788.75,2798.25,2.0,7.5,0.375,0.65,"['wddrb_mid_sigma', 'model_up_bias']",session,timeout,2791.5,False,2019-03
+1552483800,2019-03-13 09:30:00,ES,RR,wddrb_sigma_distribution,long,2802.0,2800.0,2802.75,2.0,0.75,0.375,0.55,"['wddrb_mid_sigma', 'model_up_bias']",session,target,2802.75,False,2019-03
+1551835800,2019-03-05 20:30:00,ES,AS,wddrb_sigma_distribution,short,2785.0,2790.0,2776.5,5.0,8.5,0.35,0.7000000000000001,"['wddrb_mid_sigma', 'model_down_bias', 'cluster_near_weekly']",session,timeout,2783.25,False,2019-03
+1551835800,2019-03-05 20:30:00,ES,AS,cluster_rejection_fade,short,2785.0,2790.0,2776.5,5.0,8.5,0.35,0.7000000000000001,"['rejection_bias', 'cluster_confluence', 'model_down_bias', 'cluster_near_weekly']",session,timeout,2783.25,False,2019-03
+1553472000,2019-03-24 20:00:00,ES,AR,wddrb_sigma_distribution,short,2808.5,2828.5,2782.0,20.0,26.5,0.2875,0.55,"['wddrb_mid_sigma', 'model_down_bias']",session,timeout,2802.75,False,2019-03
+1552487400,2019-03-13 10:30:00,ES,RS,wddrb_sigma_distribution,long,2808.25,2804.75,2809.25,3.5,1.0,0.2857142857142857,0.55,"['wddrb_mid_sigma', 'model_up_bias']",session,target,2809.25,False,2019-03
+1552487400,2019-03-13 10:30:00,ES,RS,model_forward,long,2808.25,2804.75,2809.25,3.5,1.0,0.2857142857142857,0.55,"['model_up_bias', 'model_up_bias']",session,target,2809.25,False,2019-03
+1552955400,2019-03-18 20:30:00,ES,AS,model_forward,long,2839.75,2834.25,2841.0,5.5,1.25,0.2272727272727272,0.65,"['model_up_bias', 'model_up_bias']",session,target,2841.0,False,2019-03
+1553520600,2019-03-25 09:30:00,ES,RR,wddrb_sigma_distribution,long,2804.25,2801.875,2804.75,2.375,0.5,0.2105263157894736,0.55,"['wddrb_mid_sigma', 'model_up_bias']",session,target,2804.75,False,2019-03
+1553520600,2019-03-25 09:30:00,ES,RR,model_forward,long,2804.25,2801.875,2804.75,2.375,0.5,0.2105263157894736,0.55,"['model_up_bias', 'model_up_bias']",session,target,2804.75,False,2019-03
+1556634600,2019-04-30 10:30:00,ES,RS,wddrb_sigma_distribution,short,2937.75,2939.75,2931.625,2.0,6.125,3.0625,0.55,"['wddrb_mid_sigma', 'model_down_bias']",session,target,2931.625,False,2019-04
+1556634900,2019-04-30 10:35:00,ES,RS,wddrb_sigma_distribution,short,2937.0,2939.0,2931.625,2.0,5.375,2.6875,0.6000000000000001,"['wddrb_mid_sigma', 'model_down_bias', 'cluster_near_weekly']",session,target,2931.625,False,2019-04
+1554966000,2019-04-11 03:00:00,ES,OR,model_forward,short,2895.75,2897.75,2877.75,2.0,18.0,2.5,0.7000000000000001,"['model_down_bias', 'model_down_bias', 'cluster_near_darkpool']",session,timeout,2890.75,False,2019-04
+1554966300,2019-04-11 03:05:00,ES,OR,model_forward,short,2894.75,2896.75,2877.75,2.0,17.0,2.0,0.65,"['model_down_bias', 'model_down_bias']",session,timeout,2890.75,False,2019-04
+1555511400,2019-04-17 10:30:00,ES,RS,wddrb_sigma_distribution,short,2910.5,2914.0,2895.0,3.5,15.5,2.0,0.65,"['wddrb_mid_sigma', 'cluster_near_darkpool']",session,timeout,2903.5,False,2019-04
+1555511400,2019-04-17 10:30:00,ES,RS,cluster_rejection_fade,short,2910.5,2914.0,2895.0,3.5,15.5,2.0,0.65,"['rejection_bias', 'cluster_confluence', 'cluster_near_darkpool']",session,timeout,2903.5,False,2019-04
+1554475200,2019-04-05 10:40:00,ES,RS,wddrb_sigma_distribution,long,2892.75,2890.75,2895.5,2.0,2.75,1.375,0.65,"['wddrb_mid_sigma', 'model_up_bias']",session,target,2895.5,False,2019-04
+1554475200,2019-04-05 10:40:00,ES,RS,model_forward,long,2892.75,2890.75,2895.5,2.0,2.75,1.375,0.65,"['model_up_bias', 'model_up_bias']",session,target,2895.5,False,2019-04
+1555026000,2019-04-11 19:40:00,ES,AR,range_post_break_pullback,short,2893.75,2895.5,2891.875,1.75,1.875,1.0714285714285714,0.6,"['pullback_first_low', 'post_break']",session,target,2891.875,False,2019-04
+1554966000,2019-04-11 03:00:00,ES,OR,cluster_rejection_fade,short,2895.75,2888.75,2877.75,7.0,18.0,1.0,0.7000000000000001,"['rejection_bias', 'cluster_confluence', 'model_down_bias', 'cluster_near_darkpool']",session,stop,2888.75,False,2019-04
+1555459200,2019-04-16 20:00:00,ES,AR,cluster_rejection_fade,long,2909.75,2912.25,2920.0,2.5,10.25,1.0,0.7000000000000001,"['rejection_bias', 'cluster_confluence', 'model_up_bias', 'cluster_near_darkpool']",session,stop,2912.25,False,2019-04
+1555459200,2019-04-16 20:00:00,ES,AR,model_forward,long,2909.75,2912.25,2920.0,2.5,10.25,1.0,0.7000000000000001,"['model_up_bias', 'model_up_bias', 'cluster_near_darkpool']",session,stop,2912.25,False,2019-04
+1556642400,2019-04-30 12:40:00,ES,RS,wddrb_sigma_distribution,short,2940.75,2933.875,2918.125,6.875,22.625,1.0,0.7000000000000001,"['wddrb_mid_sigma', 'model_down_bias', 'cluster_near_darkpool']",session,stop,2933.875,False,2019-04
+1556642400,2019-04-30 12:40:00,ES,RS,cluster_rejection_fade,short,2940.75,2933.875,2918.125,6.875,22.625,1.0,0.7000000000000001,"['rejection_bias', 'cluster_confluence', 'model_down_bias', 'cluster_near_darkpool']",session,stop,2933.875,False,2019-04
+1554447600,2019-04-05 03:00:00,ES,OR,wddrb_sigma_distribution,short,2888.25,2878.375,2863.625,9.875,24.625,1.0,0.65,"['wddrb_mid_sigma', 'model_down_bias']",session,stop,2878.375,False,2019-04
+1554447600,2019-04-05 03:00:00,ES,OR,model_forward,short,2888.25,2885.75,2863.625,2.5,24.625,1.0,0.65,"['model_down_bias', 'model_down_bias']",session,stop,2885.75,False,2019-04
+1554969600,2019-04-11 04:00:00,ES,OS,wddrb_sigma_distribution,short,2891.0,2888.75,2877.75,2.25,13.25,1.0,0.65,"['wddrb_mid_sigma', 'model_down_bias']",session,stop,2888.75,False,2019-04
+1554451200,2019-04-05 04:00:00,ES,OS,wddrb_sigma_distribution,short,2888.25,2878.375,2863.625,9.875,24.625,1.0,0.6000000000000001,"['wddrb_mid_sigma', 'model_down_bias']",session,stop,2878.375,False,2019-04
+1554451200,2019-04-05 04:00:00,ES,OS,model_forward,short,2888.25,2885.75,2863.625,2.5,24.625,1.0,0.6000000000000001,"['model_down_bias', 'model_down_bias']",session,stop,2885.75,False,2019-04
+1556582400,2019-04-29 20:00:00,ES,AR,model_forward,long,2941.25,2946.25,2951.5,5.0,10.25,1.0,0.6000000000000001,"['model_up_bias', 'model_up_bias', 'cluster_near_darkpool']",session,stop,2946.25,False,2019-04
+1556632200,2019-04-30 09:50:00,ES,RR,model_forward,long,2936.75,2938.75,2941.75,2.0,5.0,1.0,0.6000000000000001,"['model_up_bias', 'model_up_bias', 'cluster_near_weekly']",session,stop,2938.75,False,2019-04
+1554972600,2019-04-11 04:50:00,ES,OS,wddrb_sigma_distribution,short,2894.5,2888.75,2877.75,5.75,16.75,1.0,0.55,"['wddrb_mid_sigma', 'model_down_bias']",session,stop,2888.75,False,2019-04
+1555507800,2019-04-17 09:30:00,ES,RR,wddrb_sigma_distribution,long,2917.0,2920.125,2923.5,3.125,6.5,1.0,0.55,"['wddrb_mid_sigma', 'model_up_bias']",session,stop,2920.125,False,2019-04
+1556112600,2019-04-24 09:30:00,ES,RR,wddrb_sigma_distribution,long,2934.5,2932.5,2936.5,2.0,2.0,1.0,0.55,"['wddrb_mid_sigma', 'model_up_bias']",session,target,2936.5,False,2019-04
+1556064000,2019-04-23 20:00:00,ES,AR,wddrb_sigma_distribution,short,2938.75,2926.0,2898.5,12.75,40.25,1.0,0.5,['wddrb_mid_sigma'],session,stop,2926.0,False,2019-04
+1556090100,2019-04-24 03:15:00,ES,OR,wddrb_sigma_distribution,short,2933.5,2926.0,2898.5,7.5,35.0,1.0,0.5,['wddrb_mid_sigma'],session,stop,2926.0,False,2019-04
+1556584200,2019-04-29 20:30:00,ES,AS,wddrb_sigma_distribution,short,2940.5,2946.25,2935.75,5.75,4.75,0.8260869565217391,0.7000000000000001,"['wddrb_mid_sigma', 'model_down_bias', 'cluster_near_darkpool']",session,target,2935.75,False,2019-04
+1556584200,2019-04-29 20:30:00,ES,AS,cluster_rejection_fade,short,2940.5,2946.25,2935.75,5.75,4.75,0.8260869565217391,0.7000000000000001,"['rejection_bias', 'cluster_confluence', 'model_down_bias', 'cluster_near_darkpool']",session,target,2935.75,False,2019-04
+1555488000,2019-04-17 04:00:00,ES,OS,wddrb_sigma_distribution,long,2915.75,2912.25,2920.0,3.5,4.25,0.7857142857142857,0.6000000000000001,"['wddrb_mid_sigma', 'model_up_bias', 'cluster_near_weekly']",session,timeout,2918.5,False,2019-04
+1555488000,2019-04-17 04:00:00,ES,OS,model_forward,long,2915.75,2912.25,2920.0,3.5,4.25,0.7857142857142857,0.6000000000000001,"['model_up_bias', 'model_up_bias', 'cluster_near_weekly']",session,timeout,2918.5,False,2019-04
+1558654200,2019-05-23 19:30:00,ES,AR,wddrb_sigma_distribution,long,2821.25,2819.0,2832.25,2.25,11.0,2.111111111111111,0.55,"['wddrb_mid_sigma', 'model_up_bias']",session,timeout,2826.0,False,2019-05
+1558099800,2019-05-17 09:30:00,ES,RR,wddrb_sigma_distribution,long,2859.0,2857.0,2861.75,2.0,2.75,1.375,0.55,"['wddrb_mid_sigma', 'model_up_bias']",session,target,2861.75,False,2019-05
+1558099800,2019-05-17 09:30:00,ES,RR,model_forward,long,2859.0,2857.0,2861.75,2.0,2.75,1.375,0.55,"['model_up_bias', 'model_up_bias']",session,target,2861.75,False,2019-05
+1558101300,2019-05-17 09:55:00,ES,RR,range_post_break_pullback,long,2860.75,2852.5,2882.5,8.25,21.75,1.181818181818182,0.55,"['pullback_first_high', 'post_break', 'model_up_bias']",session,timeout,2870.5,False,2019-05
+1558571400,2019-05-22 20:30:00,ES,AS,wddrb_sigma_distribution,short,2852.25,2860.0,2844.0,7.75,8.25,1.064516129032258,0.65,"['wddrb_mid_sigma', 'model_down_bias']",session,target,2844.0,False,2019-05
+1558081500,2019-05-17 04:25:00,ES,OS,wddrb_sigma_distribution,short,2865.25,2876.625,2841.875,11.375,23.375,1.010989010989011,0.55,"['wddrb_mid_sigma', 'model_down_bias']",session,timeout,2853.75,False,2019-05
+1557149400,2019-05-06 09:30:00,ES,RR,cluster_rejection_fade,short,2908.25,2901.125,2886.875,7.125,21.375,1.0,0.65,"['rejection_bias', 'cluster_confluence', 'cluster_near_darkpool']",session,stop,2901.125,False,2019-05
+1558600200,2019-05-23 04:30:00,ES,OS,model_forward,long,2833.75,2860.0,2868.0,26.25,34.25,1.0,0.65,"['model_up_bias', 'model_up_bias']",session,stop,2860.0,False,2019-05
+1558080000,2019-05-17 04:00:00,ES,OS,wddrb_sigma_distribution,long,2869.25,2876.625,2894.0,7.375,24.75,1.0,0.6000000000000001,"['wddrb_mid_sigma', 'model_up_bias', 'cluster_near_darkpool']",session,stop,2876.625,False,2019-05
+1558080000,2019-05-17 04:00:00,ES,OS,model_forward,long,2869.25,2876.625,2894.0,7.375,24.75,1.0,0.6000000000000001,"['model_up_bias', 'model_up_bias', 'cluster_near_darkpool']",session,stop,2876.625,False,2019-05
+1558081500,2019-05-17 04:25:00,ES,OS,model_forward,long,2865.25,2876.625,2894.0,11.375,28.75,1.0,0.6000000000000001,"['model_up_bias', 'model_up_bias']",session,stop,2876.625,False,2019-05
+1559116800,2019-05-29 04:00:00,ES,OS,model_forward,long,2787.75,2821.125,2841.25,33.375,53.5,1.0,0.6000000000000001,"['model_up_bias', 'model_up_bias']",session,stop,2821.125,False,2019-05
+1558053000,2019-05-16 20:30:00,ES,AS,wddrb_sigma_distribution,short,2881.75,2876.625,2841.875,5.125,39.875,1.0,0.6,['wddrb_mid_sigma'],session,stop,2876.625,False,2019-05
+1558603200,2019-05-23 05:20:00,ES,OS,model_forward,long,2832.0,2860.0,2868.0,28.0,36.0,1.0,0.55,"['model_up_bias', 'model_up_bias']",session,stop,2860.0,False,2019-05
+1558618500,2019-05-23 09:35:00,ES,RR,wddrb_sigma_distribution,long,2824.0,2827.875,2832.25,3.875,8.25,1.0,0.55,"['wddrb_mid_sigma', 'model_up_bias']",session,stop,2827.875,False,2019-05
+1559088000,2019-05-28 20:00:00,ES,AR,wddrb_sigma_distribution,long,2804.75,2821.125,2841.25,16.375,36.5,1.0,0.55,"['wddrb_mid_sigma', 'model_up_bias']",session,stop,2821.125,False,2019-05
+1559117400,2019-05-29 04:10:00,ES,OS,model_forward,long,2789.25,2821.125,2841.25,31.875,52.0,1.0,0.55,"['model_up_bias', 'model_up_bias']",session,stop,2821.125,False,2019-05
+1559127000,2019-05-29 06:50:00,ES,OS,wddrb_sigma_distribution,long,2791.5,2821.125,2841.25,29.625,49.75,1.0,0.55,"['wddrb_mid_sigma', 'model_up_bias']",session,stop,2821.125,False,2019-05
+1559127000,2019-05-29 06:50:00,ES,OS,model_forward,long,2791.5,2821.125,2841.25,29.625,49.75,1.0,0.55,"['model_up_bias', 'model_up_bias']",session,stop,2821.125,False,2019-05
+1559141400,2019-05-29 10:50:00,ES,RS,wddrb_sigma_distribution,long,2783.75,2785.75,2792.75,2.0,9.0,1.0,0.55,"['wddrb_mid_sigma', 'model_up_bias']",session,stop,2785.75,False,2019-05
+1559141400,2019-05-29 10:50:00,ES,RS,model_forward,long,2783.75,2785.75,2792.75,2.0,9.0,1.0,0.55,"['model_up_bias', 'model_up_bias']",session,stop,2785.75,False,2019-05
+1558051200,2019-05-16 20:00:00,ES,AR,wddrb_sigma_distribution,long,2879.0,2876.625,2894.0,2.375,15.0,0.631578947368421,0.6,['wddrb_mid_sigma'],session,timeout,2880.5,False,2019-05
+1558571400,2019-05-22 20:30:00,ES,AS,model_forward,short,2852.25,2868.0,2844.0,15.75,8.25,0.5238095238095238,0.65,"['model_down_bias', 'model_down_bias']",session,target,2844.0,False,2019-05
+1559137500,2019-05-29 09:45:00,ES,RR,range_post_break_pullback,short,2783.0,2789.75,2779.5,6.75,3.5,0.5185185185185185,0.5,"['pullback_first_low', 'post_break']",session,target,2779.5,False,2019-05
+1558063500,2019-05-16 23:25:00,ES,AS,wddrb_sigma_distribution,short,2871.75,2876.625,2841.875,4.875,29.875,0.5128205128205128,0.5,['wddrb_mid_sigma'],session,timeout,2869.25,False,2019-05
+1557153000,2019-05-06 10:30:00,ES,RS,wddrb_sigma_distribution,long,2915.0,2906.625,2919.25,8.375,4.25,0.5074626865671642,0.55,"['wddrb_mid_sigma', 'model_up_bias']",session,target,2919.25,False,2019-05
+1557153000,2019-05-06 10:30:00,ES,RS,model_forward,long,2915.0,2906.625,2919.25,8.375,4.25,0.5074626865671642,0.55,"['model_up_bias', 'model_up_bias']",session,target,2919.25,False,2019-05
+1558076400,2019-05-17 03:00:00,ES,OR,wddrb_sigma_distribution,short,2872.0,2876.625,2841.875,4.625,30.125,0.2162162162162162,0.6,['wddrb_mid_sigma'],session,timeout,2871.0,False,2019-05
+1559139300,2019-05-29 10:15:00,ES,RR,wddrb_sigma_distribution,long,2789.5,2784.625,2790.5,4.875,1.0,0.2051282051282051,0.55,"['wddrb_mid_sigma', 'model_up_bias']",session,target,2790.5,False,2019-05
+1559139300,2019-05-29 10:15:00,ES,RR,model_forward,long,2789.5,2784.625,2790.5,4.875,1.0,0.2051282051282051,0.55,"['model_up_bias', 'model_up_bias']",session,target,2790.5,False,2019-05
+1559631600,2019-06-04 03:00:00,ES,OR,wddrb_sigma_distribution,long,2749.0,2746.25,2763.75,2.75,14.75,3.909090909090909,0.6,['wddrb_mid_sigma'],session,timeout,2759.75,False,2019-06
+1561642500,2019-06-27 09:35:00,ES,RR,wddrb_sigma_distribution,long,2925.75,2923.75,2930.25,2.0,4.5,2.25,0.65,"['wddrb_mid_sigma', 'model_up_bias']",session,target,2930.25,False,2019-06
+1561077000,2019-06-20 20:30:00,ES,AS,range_post_break_pullback,short,2958.0,2959.5,2954.75,1.5,3.25,2.1666666666666665,0.6,"['pullback_first_low', 'post_break']",session,target,2954.75,False,2019-06
+1561123800,2019-06-21 09:30:00,ES,RR,wddrb_sigma_distribution,long,2954.75,2952.75,2957.5,2.0,2.75,1.375,0.55,"['wddrb_mid_sigma', 'model_up_bias']",session,target,2957.5,False,2019-06
+1560177300,2019-06-10 10:35:00,ES,RS,wddrb_sigma_distribution,long,2895.25,2893.25,2897.75,2.0,2.5,1.25,0.65,"['wddrb_mid_sigma', 'model_up_bias']",session,target,2897.75,False,2019-06
+1560126600,2019-06-09 20:30:00,ES,AS,wddrb_sigma_distribution,short,2885.0,2870.5,2839.0,14.5,46.0,1.0,0.65,"['wddrb_mid_sigma', 'cluster_near_darkpool']",session,stop,2870.5,False,2019-06
+1560126600,2019-06-09 20:30:00,ES,AS,cluster_rejection_fade,short,2885.0,2870.5,2839.0,14.5,46.0,1.0,0.65,"['rejection_bias', 'cluster_confluence', 'cluster_near_darkpool']",session,stop,2870.5,False,2019-06
+1561593600,2019-06-26 20:00:00,ES,AR,wddrb_sigma_distribution,long,2918.25,2926.875,2936.75,8.625,18.5,1.0,0.65,"['wddrb_mid_sigma', 'model_up_bias']",session,stop,2926.875,False,2019-06
+1561651800,2019-06-27 12:10:00,ES,RS,wddrb_sigma_distribution,short,2929.75,2927.375,2916.625,2.375,13.125,1.0,0.65,"['wddrb_mid_sigma', 'model_down_bias']",session,stop,2927.375,False,2019-06
+1560189600,2019-06-10 14:00:00,ES,RS,wddrb_sigma_distribution,long,2890.0,2897.25,2905.75,7.25,15.75,1.0,0.6000000000000001,"['wddrb_mid_sigma', 'model_up_bias', 'cluster_near_darkpool']",session,stop,2897.25,False,2019-06
+1561077000,2019-06-20 20:30:00,ES,AS,wddrb_sigma_distribution,short,2958.0,2949.5,2922.0,8.5,36.0,1.0,0.6,['wddrb_mid_sigma'],session,stop,2949.5,False,2019-06
+1559606400,2019-06-03 20:00:00,ES,AR,wddrb_sigma_distribution,short,2750.75,2746.25,2711.25,4.5,39.5,1.0,0.55,['wddrb_mid_sigma'],session,stop,2746.25,False,2019-06
+1560124800,2019-06-09 20:00:00,ES,AR,wddrb_sigma_distribution,short,2888.25,2870.5,2839.0,17.75,49.25,1.0,0.55,"['wddrb_mid_sigma', 'cluster_near_darkpool']",session,stop,2870.5,False,2019-06
+1561080000,2019-06-20 21:20:00,ES,AS,wddrb_sigma_distribution,short,2955.75,2949.5,2922.0,6.25,33.75,1.0,0.5,['wddrb_mid_sigma'],session,stop,2949.5,False,2019-06
+1561595400,2019-06-26 20:30:00,ES,AS,wddrb_sigma_distribution,long,2920.25,2926.875,2936.75,6.625,16.5,1.0,0.5,['wddrb_mid_sigma'],session,stop,2926.875,False,2019-06
+1559635200,2019-06-04 04:00:00,ES,OS,wddrb_sigma_distribution,long,2757.25,2746.25,2763.75,11.0,6.5,0.5909090909090909,0.55,"['wddrb_mid_sigma', 'model_up_bias']",session,target,2763.75,False,2019-06
+1559635200,2019-06-04 04:00:00,ES,OS,model_forward,long,2757.25,2746.25,2763.75,11.0,6.5,0.5909090909090909,0.55,"['model_up_bias', 'model_up_bias']",session,target,2763.75,False,2019-06
+1560177000,2019-06-10 10:30:00,ES,RS,wddrb_sigma_distribution,long,2896.25,2893.375,2897.75,2.875,1.5,0.5217391304347826,0.55,"['wddrb_mid_sigma', 'model_up_bias']",session,target,2897.75,False,2019-06
+1560177000,2019-06-10 10:30:00,ES,RS,model_forward,long,2896.25,2893.375,2897.75,2.875,1.5,0.5217391304347826,0.55,"['model_up_bias', 'model_up_bias']",session,target,2897.75,False,2019-06
+1560189600,2019-06-10 14:00:00,ES,RS,cluster_rejection_fade,short,2890.0,2897.25,2880.25,7.25,9.75,0.4482758620689655,0.65,"['rejection_bias', 'cluster_confluence', 'cluster_near_darkpool']",session,timeout,2886.75,False,2019-06
+1560727800,2019-06-16 19:30:00,ES,AR,wddrb_sigma_distribution,long,2897.5,2892.0,2899.75,5.5,2.25,0.4090909090909091,0.6000000000000001,"['wddrb_mid_sigma', 'model_up_bias', 'cluster_near_darkpool']",session,target,2899.75,False,2019-06
+1560727800,2019-06-16 19:30:00,ES,AR,model_forward,long,2897.5,2892.0,2899.75,5.5,2.25,0.4090909090909091,0.6000000000000001,"['model_up_bias', 'model_up_bias', 'cluster_near_darkpool']",session,target,2899.75,False,2019-06
+1561593600,2019-06-26 20:00:00,ES,AR,range_post_break_pullback,long,2918.25,2916.25,2956.5,2.0,38.25,0.375,0.65,"['pullback_first_high', 'post_break', 'model_up_bias']",session,timeout,2919.0,False,2019-06
+1560173400,2019-06-10 09:30:00,ES,RR,wddrb_sigma_distribution,long,2893.75,2891.75,2894.5,2.0,0.75,0.375,0.55,"['wddrb_mid_sigma', 'model_up_bias']",session,target,2894.5,False,2019-06
+1561100400,2019-06-21 03:00:00,ES,OR,wddrb_sigma_distribution,long,2956.0,2949.5,2963.25,6.5,7.25,0.3076923076923077,0.65,"['wddrb_mid_sigma', 'cluster_near_darkpool']",session,timeout,2958.0,False,2019-06
+1561100400,2019-06-21 03:00:00,ES,OR,cluster_rejection_fade,long,2956.0,2949.5,2963.25,6.5,7.25,0.3076923076923077,0.65,"['rejection_bias', 'cluster_confluence', 'cluster_near_darkpool']",session,timeout,2958.0,False,2019-06
+1560150000,2019-06-10 03:00:00,ES,OR,wddrb_sigma_distribution,long,2882.75,2870.5,2886.25,12.25,3.5,0.2857142857142857,0.65,"['wddrb_mid_sigma', 'cluster_near_darkpool']",session,target,2886.25,False,2019-06
+1560150000,2019-06-10 03:00:00,ES,OR,cluster_rejection_fade,long,2882.75,2870.5,2886.25,12.25,3.5,0.2857142857142857,0.65,"['rejection_bias', 'cluster_confluence', 'cluster_near_darkpool']",session,target,2886.25,False,2019-06
+1561075200,2019-06-20 20:00:00,ES,AR,wddrb_sigma_distribution,long,2956.0,2949.5,2963.25,6.5,7.25,0.1538461538461538,0.5,['wddrb_mid_sigma'],session,timeout,2957.0,False,2019-06
+1559655300,2019-06-04 09:35:00,ES,RR,range_post_break_pullback,short,2766.75,2773.5,2765.75,6.75,1.0,0.1481481481481481,0.55,"['pullback_first_low', 'post_break']",session,target,2765.75,False,2019-06
+1562632200,2019-07-08 20:30:00,ES,AS,wddrb_sigma_distribution,short,2976.0,2979.0,2967.5,3.0,8.5,2.8333333333333335,0.55,"['wddrb_mid_sigma', 'model_down_bias']",session,target,2967.5,False,2019-07
+1564151400,2019-07-26 10:30:00,ES,RS,range_post_break_pullback,long,3018.0,3013.25,3028.25,4.75,10.25,2.1578947368421053,0.65,"['pullback_first_high', 'post_break', 'model_up_bias']",session,target,3028.25,False,2019-07
+1564101000,2019-07-25 20:30:00,ES,AS,wddrb_sigma_distribution,long,3009.75,3007.75,3017.75,2.0,8.0,1.875,0.5,['wddrb_mid_sigma'],session,timeout,3013.5,False,2019-07
+1562160600,2019-07-03 09:30:00,ES,RR,wddrb_sigma_distribution,long,2982.0,2980.0,2984.5,2.0,2.5,1.25,0.55,"['wddrb_mid_sigma', 'model_up_bias']",session,target,2984.5,False,2019-07
+1562630400,2019-07-08 20:00:00,ES,AR,model_forward,long,2976.0,2979.0,2984.75,3.0,8.75,1.0,0.65,"['model_up_bias', 'model_up_bias']",session,stop,2979.0,False,2019-07
+1562682600,2019-07-09 10:30:00,ES,RS,cluster_rejection_fade,short,2976.0,2971.0,2960.5,5.0,15.5,1.0,0.65,"['rejection_bias', 'cluster_confluence', 'cluster_near_weekly']",session,stop,2971.0,False,2019-07
+1564617600,2019-07-31 20:00:00,ES,AR,model_forward,long,2971.0,2988.25,3018.5,17.25,47.5,1.0,0.65,"['model_up_bias', 'model_up_bias']",session,stop,2988.25,False,2019-07
+1563197400,2019-07-15 09:30:00,ES,RR,wddrb_sigma_distribution,long,3016.5,3019.0,3021.5,2.5,5.0,1.0,0.6000000000000001,"['wddrb_mid_sigma', 'model_up_bias']",session,stop,3019.0,False,2019-07
+1562112000,2019-07-02 20:00:00,ES,AR,wddrb_sigma_distribution,short,2976.75,2967.75,2949.25,9.0,27.5,1.0,0.6,['wddrb_mid_sigma'],session,stop,2967.75,False,2019-07
+1563157500,2019-07-14 22:25:00,ES,AS,wddrb_sigma_distribution,short,3017.25,3011.75,2999.25,5.5,18.0,1.0,0.6,['wddrb_mid_sigma'],session,stop,3011.75,False,2019-07
+1563174000,2019-07-15 03:00:00,ES,OR,wddrb_sigma_distribution,short,3020.0,3011.75,2999.25,8.25,20.75,1.0,0.6,['wddrb_mid_sigma'],session,stop,3011.75,False,2019-07
+1564128000,2019-07-26 04:00:00,ES,OS,wddrb_sigma_distribution,short,3012.75,3007.875,2988.125,4.875,24.625,1.0,0.6,['wddrb_mid_sigma'],session,stop,3007.875,False,2019-07
+1563150600,2019-07-14 20:30:00,ES,AS,wddrb_sigma_distribution,short,3014.25,3011.75,2999.25,2.5,15.0,1.0,0.55,"['wddrb_mid_sigma', 'cluster_near_darkpool']",session,stop,3011.75,False,2019-07
+1563158700,2019-07-14 22:45:00,ES,AS,wddrb_sigma_distribution,short,3018.25,3011.75,2999.25,6.5,19.0,1.0,0.5,['wddrb_mid_sigma'],session,stop,3011.75,False,2019-07
+1563178800,2019-07-15 04:20:00,ES,OS,wddrb_sigma_distribution,short,3018.25,3011.75,2999.25,6.5,19.0,1.0,0.5,['wddrb_mid_sigma'],session,stop,3011.75,False,2019-07
+1562160900,2019-07-03 09:35:00,ES,RR,wddrb_sigma_distribution,long,2983.5,2981.5,2985.0,2.0,1.5,0.75,0.55,"['wddrb_mid_sigma', 'model_up_bias']",session,target,2985.0,False,2019-07
+1564099200,2019-07-25 20:00:00,ES,AR,wddrb_sigma_distribution,long,3008.5,3006.5,3017.75,2.0,9.25,0.625,0.65,"['wddrb_mid_sigma', 'model_up_bias']",session,timeout,3009.75,False,2019-07
+1562715000,2019-07-09 19:30:00,ES,AR,wddrb_sigma_distribution,long,2981.75,2976.0,2986.25,5.75,4.5,0.5217391304347826,0.65,"['wddrb_mid_sigma', 'model_up_bias']",session,timeout,2984.75,False,2019-07
+1563233400,2019-07-15 19:30:00,ES,AR,wddrb_sigma_distribution,long,3018.5,3016.5,3021.5,2.0,3.0,0.5,0.55,"['wddrb_mid_sigma', 'model_up_bias']",session,timeout,3019.5,False,2019-07
+1562164200,2019-07-03 10:30:00,ES,RS,wddrb_sigma_distribution,long,2988.0,2985.375,2989.25,2.625,1.25,0.4761904761904761,0.55,"['wddrb_mid_sigma', 'model_up_bias']",session,target,2989.25,False,2019-07
+1562164200,2019-07-03 10:30:00,ES,RS,model_forward,long,2988.0,2985.375,2989.25,2.625,1.25,0.4761904761904761,0.55,"['model_up_bias', 'model_up_bias']",session,target,2989.25,False,2019-07
+1562632200,2019-07-08 20:30:00,ES,AS,range_post_break_pullback,short,2976.0,2978.75,2974.75,2.75,1.25,0.4545454545454545,0.55,"['pullback_first_low', 'post_break', 'model_down_bias']",session,target,2974.75,False,2019-07
+1563201000,2019-07-15 10:30:00,ES,RS,range_post_break_pullback,short,3017.5,3022.5,3015.25,5.0,2.25,0.45,0.55,"['pullback_first_low', 'post_break', 'model_down_bias']",session,target,3015.25,False,2019-07
+1564147800,2019-07-26 09:30:00,ES,RR,wddrb_sigma_distribution,long,3016.5,3014.5,3017.25,2.0,0.75,0.375,0.55,"['wddrb_mid_sigma', 'model_up_bias']",session,target,3017.25,False,2019-07
+1564124400,2019-07-26 03:00:00,ES,OR,wddrb_sigma_distribution,long,3011.25,3007.875,3017.75,3.375,6.5,0.3703703703703703,0.55,"['wddrb_mid_sigma', 'model_up_bias']",session,timeout,3012.5,False,2019-07
+1564124400,2019-07-26 03:00:00,ES,OR,model_forward,long,3011.25,3007.875,3017.75,3.375,6.5,0.3703703703703703,0.55,"['model_up_bias', 'model_up_bias']",session,timeout,3012.5,False,2019-07
+1563148800,2019-07-14 20:00:00,ES,AR,model_forward,long,3013.25,3011.25,3018.0,2.0,4.75,0.25,0.6000000000000001,"['model_up_bias', 'model_up_bias', 'cluster_near_darkpool']",session,timeout,3013.75,False,2019-07
+1563157500,2019-07-14 22:25:00,ES,AS,model_forward,long,3017.25,3011.75,3018.0,5.5,0.75,0.1363636363636363,0.55,"['model_up_bias', 'model_up_bias']",session,target,3018.0,False,2019-07
+1564099200,2019-07-25 20:00:00,ES,AR,range_post_break_pullback,long,3008.5,2998.0,3037.5,10.5,29.0,0.119047619047619,0.65,"['pullback_first_high', 'post_break', 'model_up_bias']",session,timeout,3009.75,False,2019-07
+1562682600,2019-07-09 10:30:00,ES,RS,wddrb_sigma_distribution,long,2976.0,2971.0,2976.25,5.0,0.25,0.05,0.6000000000000001,"['wddrb_mid_sigma', 'model_up_bias', 'cluster_near_weekly']",session,target,2976.25,False,2019-07
+1567175400,2019-08-30 10:30:00,ES,RS,wddrb_sigma_distribution,short,2934.25,2936.75,2926.75,2.5,7.5,3.0,0.5,['wddrb_mid_sigma'],session,target,2926.75,False,2019-08
+1566225000,2019-08-19 10:30:00,ES,RS,model_forward,long,2920.5,2918.5,2926.0,2.0,5.5,2.75,0.55,"['model_up_bias', 'model_up_bias']",session,target,2926.0,False,2019-08
+1566221400,2019-08-19 09:30:00,ES,RR,wddrb_sigma_distribution,long,2923.5,2921.5,2926.0,2.0,2.5,1.25,0.55,"['wddrb_mid_sigma', 'model_up_bias']",session,target,2926.0,False,2019-08
+1565161200,2019-08-07 03:00:00,ES,OR,wddrb_sigma_distribution,long,2871.5,2864.875,2883.75,6.625,12.25,1.2452830188679245,0.55,"['wddrb_mid_sigma', 'cluster_near_weekly']",session,timeout,2879.75,False,2019-08
+1567148400,2019-08-30 03:00:00,ES,OR,wddrb_sigma_distribution,long,2924.0,2918.0,2930.75,6.0,6.75,1.125,0.6,['wddrb_mid_sigma'],session,target,2930.75,False,2019-08
+1565192700,2019-08-07 11:45:00,ES,RS,cluster_rejection_fade,short,2851.25,2845.5,2801.0,5.75,50.25,1.0,0.7000000000000001,"['rejection_bias', 'cluster_confluence', 'model_down_bias', 'cluster_near_weekly']",session,stop,2845.5,False,2019-08
+1565187300,2019-08-07 10:15:00,ES,RR,cluster_rejection_fade,short,2850.5,2840.0,2806.5,10.5,44.0,1.0,0.65,"['rejection_bias', 'cluster_confluence', 'cluster_near_weekly']",session,stop,2840.0,False,2019-08
+1565683200,2019-08-13 04:00:00,ES,OS,wddrb_sigma_distribution,long,2875.0,2890.375,2908.25,15.375,33.25,1.0,0.6000000000000001,"['wddrb_mid_sigma', 'model_up_bias', 'cluster_near_weekly']",session,stop,2890.375,False,2019-08
+1565683200,2019-08-13 04:00:00,ES,OS,model_forward,long,2875.0,2890.375,2908.25,15.375,33.25,1.0,0.6000000000000001,"['model_up_bias', 'model_up_bias', 'cluster_near_weekly']",session,stop,2890.375,False,2019-08
+1565136000,2019-08-06 20:00:00,ES,AR,wddrb_sigma_distribution,short,2868.0,2864.875,2827.125,3.125,40.875,1.0,0.6,['wddrb_mid_sigma'],session,stop,2864.875,False,2019-08
+1565184600,2019-08-07 09:30:00,ES,RR,wddrb_sigma_distribution,long,2840.25,2844.375,2850.25,4.125,10.0,1.0,0.6,['wddrb_mid_sigma'],session,stop,2844.375,False,2019-08
+1565656200,2019-08-12 20:30:00,ES,AS,wddrb_sigma_distribution,long,2886.25,2890.375,2908.25,4.125,22.0,1.0,0.6,['wddrb_mid_sigma'],session,stop,2890.375,False,2019-08
+1566227700,2019-08-19 11:15:00,ES,RS,wddrb_sigma_distribution,short,2926.0,2921.25,2909.75,4.75,16.25,1.0,0.6,['wddrb_mid_sigma'],session,stop,2921.25,False,2019-08
+1566257700,2019-08-19 19:35:00,ES,AR,wddrb_sigma_distribution,long,2921.5,2923.875,2932.25,2.375,10.75,1.0,0.6,['wddrb_mid_sigma'],session,stop,2923.875,False,2019-08
+1564646400,2019-08-01 04:00:00,ES,OS,wddrb_sigma_distribution,long,2983.25,2988.25,3018.5,5.0,35.25,1.0,0.55,"['wddrb_mid_sigma', 'model_up_bias']",session,stop,2988.25,False,2019-08
+1564646400,2019-08-01 04:00:00,ES,OS,model_forward,long,2983.25,2988.25,3018.5,5.0,35.25,1.0,0.55,"['model_up_bias', 'model_up_bias']",session,stop,2988.25,False,2019-08
+1564702200,2019-08-01 19:30:00,ES,AR,model_forward,long,2945.25,2979.375,3014.25,34.125,69.0,1.0,0.55,"['model_up_bias', 'model_up_bias']",session,stop,2979.375,False,2019-08
+1567175400,2019-08-30 10:30:00,ES,RS,model_forward,long,2934.25,2936.75,2941.75,2.5,7.5,1.0,0.55,"['model_up_bias', 'model_up_bias']",session,stop,2936.75,False,2019-08
+1564642800,2019-08-01 03:00:00,ES,OR,wddrb_sigma_distribution,long,2976.5,2988.25,3018.5,11.75,42.0,1.0,0.5,['wddrb_mid_sigma'],session,stop,2988.25,False,2019-08
+1565137800,2019-08-06 20:30:00,ES,AS,wddrb_sigma_distribution,short,2867.25,2864.875,2827.125,2.375,40.125,1.0,0.5,['wddrb_mid_sigma'],session,stop,2864.875,False,2019-08
+1566257400,2019-08-19 19:30:00,ES,AR,wddrb_sigma_distribution,long,2920.75,2923.875,2932.25,3.125,11.5,1.0,0.5,['wddrb_mid_sigma'],session,stop,2923.875,False,2019-08
+1564680300,2019-08-01 13:25:00,ES,RS,model_forward,short,2987.75,3014.25,2962.875,26.5,24.875,0.9386792452830188,0.6,['model_down_bias'],session,target,2962.875,False,2019-08
+1567125000,2019-08-29 20:30:00,ES,AS,wddrb_sigma_distribution,long,2925.0,2918.0,2930.75,7.0,5.75,0.8214285714285714,0.55,"['wddrb_mid_sigma', 'model_up_bias']",session,target,2930.75,False,2019-08
+1567125000,2019-08-29 20:30:00,ES,AS,model_forward,long,2925.0,2918.0,2930.75,7.0,5.75,0.8214285714285714,0.55,"['model_up_bias', 'model_up_bias']",session,target,2930.75,False,2019-08
+1567123200,2019-08-29 20:00:00,ES,AR,wddrb_sigma_distribution,long,2922.5,2918.0,2930.75,4.5,8.25,0.4444444444444444,0.6,['wddrb_mid_sigma'],session,timeout,2924.5,False,2019-08
+1566225300,2019-08-19 10:35:00,ES,RS,range_post_break_pullback,short,2922.25,2927.0,2920.75,4.75,1.5,0.3157894736842105,0.5,"['pullback_first_low', 'post_break']",session,target,2920.75,False,2019-08
+1564666200,2019-08-01 09:30:00,ES,RR,wddrb_sigma_distribution,long,2986.0,2983.375,2986.75,2.625,0.75,0.2857142857142857,0.6000000000000001,"['wddrb_mid_sigma', 'model_up_bias', 'cluster_near_monthly']",session,target,2986.75,False,2019-08
+1564666200,2019-08-01 09:30:00,ES,RR,model_forward,long,2986.0,2983.375,2986.75,2.625,0.75,0.2857142857142857,0.6000000000000001,"['model_up_bias', 'model_up_bias', 'cluster_near_monthly']",session,target,2986.75,False,2019-08
+1565164800,2019-08-07 04:00:00,ES,OS,wddrb_sigma_distribution,long,2880.0,2864.875,2883.75,15.125,3.75,0.2479338842975206,0.55,"['wddrb_mid_sigma', 'model_up_bias']",session,target,2883.75,False,2019-08
+1565164800,2019-08-07 04:00:00,ES,OS,model_forward,long,2880.0,2864.875,2883.75,15.125,3.75,0.2479338842975206,0.55,"['model_up_bias', 'model_up_bias']",session,target,2883.75,False,2019-08
+1568208600,2019-09-11 09:30:00,ES,RR,wddrb_sigma_distribution,long,2977.25,2975.25,2982.5,2.0,5.25,2.625,0.65,"['wddrb_mid_sigma', 'model_up_bias']",session,target,2982.5,False,2019-09
+1568208600,2019-09-11 09:30:00,ES,RR,model_forward,long,2977.25,2975.25,2982.5,2.0,5.25,2.625,0.65,"['model_up_bias', 'model_up_bias']",session,target,2982.5,False,2019-09
+1569250200,2019-09-23 10:50:00,ES,RS,range_post_break_pullback,long,2986.75,2983.5,3006.0,3.25,19.25,2.076923076923077,0.6000000000000001,"['pullback_first_high', 'post_break', 'model_up_bias', 'cluster_near_monthly']",session,timeout,2993.5,False,2019-09
+1568707200,2019-09-17 04:00:00,ES,OS,model_forward,short,3002.5,3005.25,2987.25,2.75,15.25,2.0,0.7000000000000001,"['model_down_bias', 'model_down_bias', 'cluster_near_weekly']",session,timeout,2997.0,False,2019-09
+1567726200,2019-09-05 19:30:00,ES,AR,wddrb_sigma_distribution,long,2977.0,2975.0,2986.5,2.0,9.5,1.625,0.6,['wddrb_mid_sigma'],session,timeout,2980.25,False,2019-09
+1568210100,2019-09-11 09:55:00,ES,RR,wddrb_sigma_distribution,long,2983.5,2980.875,2987.0,2.625,3.5,1.3333333333333333,0.65,"['wddrb_mid_sigma', 'model_up_bias']",session,target,2987.0,False,2019-09
+1569247500,2019-09-23 10:05:00,ES,RR,range_post_break_pullback,long,2987.0,2983.5,3006.0,3.5,19.0,1.2142857142857142,0.6000000000000001,"['pullback_first_high', 'post_break', 'model_up_bias', 'cluster_near_monthly']",session,timeout,2991.25,False,2019-09
+1569245400,2019-09-23 09:30:00,ES,RR,wddrb_sigma_distribution,long,2985.25,2983.25,2987.5,2.0,2.25,1.125,0.7000000000000001,"['wddrb_mid_sigma', 'model_up_bias', 'cluster_near_monthly']",session,target,2987.5,False,2019-09
+1569245400,2019-09-23 09:30:00,ES,RR,cluster_rejection_fade,long,2985.25,2983.25,2987.5,2.0,2.25,1.125,0.7000000000000001,"['rejection_bias', 'cluster_confluence', 'model_up_bias', 'cluster_near_monthly']",session,target,2987.5,False,2019-09
+1568730600,2019-09-17 10:30:00,ES,RS,range_post_break_pullback,long,3002.0,2996.5,3009.5,5.5,7.5,1.0909090909090908,0.6000000000000001,"['pullback_first_high', 'post_break', 'model_up_bias', 'cluster_near_weekly']",session,timeout,3008.0,False,2019-09
+1568707200,2019-09-17 04:00:00,ES,OS,cluster_rejection_fade,short,3002.5,2999.25,2987.25,3.25,15.25,1.0,0.7000000000000001,"['rejection_bias', 'cluster_confluence', 'model_down_bias', 'cluster_near_weekly']",session,stop,2999.25,False,2019-09
+1568703600,2019-09-17 03:00:00,ES,OR,cluster_rejection_fade,long,2996.5,2999.25,3005.25,2.75,8.75,1.0,0.65,"['rejection_bias', 'cluster_confluence', 'cluster_near_weekly']",session,stop,2999.25,False,2019-09
+1568730600,2019-09-17 10:30:00,ES,RS,cluster_rejection_fade,short,3002.0,2999.75,2993.25,2.25,8.75,1.0,0.65,"['rejection_bias', 'cluster_confluence', 'cluster_near_weekly']",session,stop,2999.75,False,2019-09
+1569225600,2019-09-23 04:00:00,ES,OS,model_forward,long,2991.0,3001.625,3018.0,10.625,27.0,1.0,0.65,"['model_up_bias', 'model_up_bias']",session,stop,3001.625,False,2019-09
+1569198600,2019-09-22 20:30:00,ES,AS,wddrb_sigma_distribution,short,3004.25,3001.625,2968.875,2.625,35.375,1.0,0.6000000000000001,"['wddrb_mid_sigma', 'model_down_bias', 'cluster_near_darkpool']",session,stop,3001.625,False,2019-09
+1569247500,2019-09-23 10:05:00,ES,RR,wddrb_sigma_distribution,long,2987.0,2989.125,2994.75,2.125,7.75,1.0,0.6000000000000001,"['wddrb_mid_sigma', 'model_up_bias', 'cluster_near_monthly']",session,stop,2989.125,False,2019-09
+1568678400,2019-09-16 20:00:00,ES,AR,wddrb_sigma_distribution,short,3003.25,2999.25,2987.25,4.0,16.0,1.0,0.6,['wddrb_mid_sigma'],session,stop,2999.25,False,2019-09
+1568680200,2019-09-16 20:30:00,ES,AS,wddrb_sigma_distribution,short,3002.25,2999.25,2987.25,3.0,15.0,1.0,0.6,['wddrb_mid_sigma'],session,stop,2999.25,False,2019-09
+1568160000,2019-09-10 20:00:00,ES,AR,wddrb_sigma_distribution,short,2975.5,2968.5,2946.0,7.0,29.5,1.0,0.5,['wddrb_mid_sigma'],session,stop,2968.5,False,2019-09
+1568161800,2019-09-10 20:30:00,ES,AS,wddrb_sigma_distribution,short,2976.25,2968.5,2946.0,7.75,30.25,1.0,0.5,['wddrb_mid_sigma'],session,stop,2968.5,False,2019-09
+1567690200,2019-09-05 09:30:00,ES,RR,wddrb_sigma_distribution,long,2966.75,2964.75,2968.5,2.0,1.75,0.875,0.6000000000000001,"['wddrb_mid_sigma', 'model_up_bias', 'cluster_near_monthly']",session,target,2968.5,False,2019-09
+1568161800,2019-09-10 20:30:00,ES,AS,model_forward,long,2976.25,2968.5,2979.75,7.75,3.5,0.4516129032258064,0.65,"['model_up_bias', 'model_up_bias']",session,target,2979.75,False,2019-09
+1567690500,2019-09-05 09:35:00,ES,RR,wddrb_sigma_distribution,long,2968.5,2966.5,2969.25,2.0,0.75,0.375,0.55,"['wddrb_mid_sigma', 'model_up_bias']",session,target,2969.25,False,2019-09
+1568210100,2019-09-11 09:55:00,ES,RR,range_post_break_pullback,long,2983.5,2974.75,2999.25,8.75,15.75,0.3714285714285714,0.65,"['pullback_first_high', 'post_break', 'model_up_bias']",session,timeout,2986.75,False,2019-09
+1568212200,2019-09-11 10:30:00,ES,RS,wddrb_sigma_distribution,long,2986.5,2981.5,2988.25,5.0,1.75,0.35,0.7000000000000001,"['wddrb_mid_sigma', 'model_up_bias', 'cluster_near_monthly']",session,target,2988.25,False,2019-09
+1568212200,2019-09-11 10:30:00,ES,RS,model_forward,long,2986.5,2981.5,2988.25,5.0,1.75,0.35,0.7000000000000001,"['model_up_bias', 'model_up_bias', 'cluster_near_monthly']",session,target,2988.25,False,2019-09
+1569225600,2019-09-23 04:00:00,ES,OS,wddrb_sigma_distribution,short,2991.0,3001.625,2968.875,10.625,22.125,0.3058823529411765,0.55,"['wddrb_mid_sigma', 'model_down_bias']",session,timeout,2987.75,False,2019-09
+1568160000,2019-09-10 20:00:00,ES,AR,model_forward,long,2975.5,2968.5,2979.75,7.0,4.25,0.1071428571428571,0.55,"['model_up_bias', 'model_up_bias']",session,timeout,2976.25,False,2019-09
+1569196800,2019-09-22 20:00:00,ES,AR,model_forward,short,3003.0,3018.0,2968.875,15.0,34.125,-0.0666666666666666,0.6000000000000001,"['model_down_bias', 'model_down_bias', 'cluster_near_weekly']",session,timeout,3004.0,False,2019-09
+1569799800,2019-09-29 19:30:00,ES,AR,model_forward,short,2969.0,2989.5,2924.625,20.5,44.375,-0.1219512195121951,0.6000000000000001,"['model_down_bias', 'model_down_bias', 'cluster_near_darkpool']",session,timeout,2971.5,False,2019-09
+1570200600,2019-10-04 10:50:00,ES,RS,range_post_break_pullback,long,2927.0,2917.5,2950.5,9.5,23.5,2.473684210526316,0.55,"['pullback_first_high', 'post_break', 'model_up_bias']",session,target,2950.5,False,2019-10
+1571754600,2019-10-22 10:30:00,ES,RS,wddrb_sigma_distribution,long,3010.0,3008.0,3013.5,2.0,3.5,1.75,0.6000000000000001,"['wddrb_mid_sigma', 'model_up_bias', 'cluster_near_weekly']",session,target,3013.5,False,2019-10
+1571754600,2019-10-22 10:30:00,ES,RS,model_forward,long,3010.0,3008.0,3013.5,2.0,3.5,1.75,0.6000000000000001,"['model_up_bias', 'model_up_bias', 'cluster_near_weekly']",session,target,3013.5,False,2019-10
+1571751000,2019-10-22 09:30:00,ES,RR,cluster_rejection_fade,short,3012.0,3014.0,3009.0,2.0,3.0,1.5,0.65,"['rejection_bias', 'cluster_confluence', 'cluster_near_weekly']",session,target,3009.0,False,2019-10
+1571751900,2019-10-22 09:45:00,ES,RR,wddrb_sigma_distribution,long,3010.25,3008.25,3013.0,2.0,2.75,1.375,0.55,"['wddrb_mid_sigma', 'model_up_bias']",session,target,3013.0,False,2019-10
+1570665600,2019-10-09 20:00:00,ES,AR,model_forward,short,2912.75,2929.5,2895.0,16.75,17.75,1.0597014925373134,0.55,"['model_down_bias', 'model_down_bias']",session,target,2895.0,False,2019-10
+1570717800,2019-10-10 10:30:00,ES,RS,cluster_rejection_fade,short,2936.5,2927.25,2904.25,9.25,32.25,1.0,0.7000000000000001,"['rejection_bias', 'cluster_confluence', 'model_down_bias', 'cluster_near_darkpool']",session,stop,2927.25,False,2019-10
+1571236200,2019-10-16 10:30:00,ES,RS,cluster_rejection_fade,short,2992.0,2989.25,2980.25,2.75,11.75,1.0,0.7000000000000001,"['rejection_bias', 'cluster_confluence', 'model_down_bias', 'cluster_near_weekly']",session,stop,2989.25,False,2019-10
+1572222600,2019-10-27 20:30:00,ES,AS,wddrb_sigma_distribution,short,3023.5,3013.875,2988.625,9.625,34.875,1.0,0.7000000000000001,"['wddrb_mid_sigma', 'model_down_bias', 'cluster_near_darkpool']",session,stop,3013.875,False,2019-10
+1572222600,2019-10-27 20:30:00,ES,AS,cluster_rejection_fade,short,3023.5,3013.875,2988.625,9.625,34.875,1.0,0.7000000000000001,"['rejection_bias', 'cluster_confluence', 'model_down_bias', 'cluster_near_darkpool']",session,stop,3013.875,False,2019-10
+1572249600,2019-10-28 04:00:00,ES,OS,cluster_rejection_fade,short,3026.5,3013.875,2988.625,12.625,37.875,1.0,0.7000000000000001,"['rejection_bias', 'cluster_confluence', 'model_down_bias', 'cluster_near_darkpool']",session,stop,3013.875,False,2019-10
+1570690800,2019-10-10 03:00:00,ES,OR,wddrb_sigma_distribution,long,2914.5,2918.0,2929.5,3.5,15.0,1.0,0.65,"['wddrb_mid_sigma', 'cluster_near_weekly']",session,stop,2918.0,False,2019-10
+1570690800,2019-10-10 03:00:00,ES,OR,cluster_rejection_fade,long,2914.5,2918.0,2929.5,3.5,15.0,1.0,0.65,"['rejection_bias', 'cluster_confluence', 'cluster_near_weekly']",session,stop,2918.0,False,2019-10
+1571213400,2019-10-16 04:10:00,ES,OS,model_forward,long,2987.25,2989.375,3003.25,2.125,16.0,1.0,0.65,"['model_up_bias', 'model_up_bias']",session,stop,2989.375,False,2019-10
+1571216400,2019-10-16 05:00:00,ES,OS,model_forward,long,2986.75,2989.375,3003.25,2.625,16.5,1.0,0.65,"['model_up_bias', 'model_up_bias']",session,stop,2989.375,False,2019-10
+1571234400,2019-10-16 10:00:00,ES,RR,model_forward,long,2986.0,2988.875,2992.25,2.875,6.25,1.0,0.65,"['model_up_bias', 'model_up_bias']",session,stop,2988.875,False,2019-10
+1571246100,2019-10-16 13:15:00,ES,RS,wddrb_sigma_distribution,long,2986.75,2991.125,2997.5,4.375,10.75,1.0,0.65,"['wddrb_mid_sigma', 'model_up_bias']",session,stop,2991.125,False,2019-10
+1571246100,2019-10-16 13:15:00,ES,RS,model_forward,long,2986.75,2991.125,2997.5,4.375,10.75,1.0,0.65,"['model_up_bias', 'model_up_bias']",session,stop,2991.125,False,2019-10
+1571702400,2019-10-21 20:00:00,ES,AR,wddrb_sigma_distribution,short,3005.0,3001.0,2988.0,4.0,17.0,1.0,0.65,"['wddrb_mid_sigma', 'model_down_bias']",session,stop,3001.0,False,2019-10
+1571727600,2019-10-22 03:00:00,ES,OR,wddrb_sigma_distribution,short,3008.5,3001.0,2988.0,7.5,20.5,1.0,0.6000000000000001,"['wddrb_mid_sigma', 'model_down_bias', 'cluster_near_weekly']",session,stop,3001.0,False,2019-10
+1572220800,2019-10-27 20:00:00,ES,AR,wddrb_sigma_distribution,short,3023.75,3013.875,2988.625,9.875,35.125,1.0,0.6000000000000001,"['wddrb_mid_sigma', 'model_down_bias', 'cluster_near_darkpool']",session,stop,3013.875,False,2019-10
+1572246000,2019-10-28 03:00:00,ES,OR,wddrb_sigma_distribution,short,3024.5,3013.875,2988.625,10.625,35.875,1.0,0.6000000000000001,"['wddrb_mid_sigma', 'model_down_bias', 'cluster_near_darkpool']",session,stop,3013.875,False,2019-10
+1570147200,2019-10-03 20:00:00,ES,AR,wddrb_sigma_distribution,short,2906.75,2883.125,2826.875,23.625,79.875,1.0,0.6,['wddrb_mid_sigma'],session,stop,2883.125,False,2019-10
+1570149000,2019-10-03 20:30:00,ES,AS,wddrb_sigma_distribution,short,2906.5,2883.125,2826.875,23.375,79.625,1.0,0.6,['wddrb_mid_sigma'],session,stop,2883.125,False,2019-10
+1570195800,2019-10-04 09:30:00,ES,RR,wddrb_sigma_distribution,long,2924.25,2922.0,2926.5,2.25,2.25,1.0,0.55,"['wddrb_mid_sigma', 'model_up_bias']",session,target,2926.5,False,2019-10
+1570195800,2019-10-04 09:30:00,ES,RR,model_forward,long,2924.25,2922.0,2926.5,2.25,2.25,1.0,0.55,"['model_up_bias', 'model_up_bias']",session,target,2926.5,False,2019-10
+1570694400,2019-10-10 04:00:00,ES,OS,wddrb_sigma_distribution,long,2909.5,2918.0,2929.5,8.5,20.0,1.0,0.55,"['wddrb_mid_sigma', 'model_up_bias']",session,stop,2918.0,False,2019-10
+1570694400,2019-10-10 04:00:00,ES,OS,model_forward,long,2909.5,2918.0,2929.5,8.5,20.0,1.0,0.55,"['model_up_bias', 'model_up_bias']",session,stop,2918.0,False,2019-10
+1571731200,2019-10-22 04:00:00,ES,OS,wddrb_sigma_distribution,short,3003.25,3001.0,2988.0,2.25,15.25,1.0,0.55,"['wddrb_mid_sigma', 'model_down_bias']",session,stop,3001.0,False,2019-10
+1570665600,2019-10-09 20:00:00,ES,AR,wddrb_sigma_distribution,long,2912.75,2918.0,2929.5,5.25,16.75,1.0,0.5,['wddrb_mid_sigma'],session,stop,2918.0,False,2019-10
+1573173000,2019-11-07 19:30:00,ES,AR,wddrb_sigma_distribution,short,3086.25,3088.25,3069.625,2.0,16.625,2.25,0.6000000000000001,"['wddrb_mid_sigma', 'model_down_bias', 'cluster_near_monthly']",session,timeout,3081.75,False,2019-11
+1574436600,2019-11-22 10:30:00,ES,RS,wddrb_sigma_distribution,short,3104.25,3107.125,3097.875,2.875,6.375,2.217391304347826,0.55,"['wddrb_mid_sigma', 'model_down_bias']",session,target,3097.875,False,2019-11
+1574433600,2019-11-22 09:40:00,ES,RR,model_forward,long,3107.5,3105.5,3111.75,2.0,4.25,2.125,0.65,"['model_up_bias', 'model_up_bias']",session,target,3111.75,False,2019-11
+1574441100,2019-11-22 11:45:00,ES,RS,model_forward,long,3105.75,3103.75,3111.75,2.0,6.0,2.0,0.65,"['model_up_bias', 'model_up_bias']",session,timeout,3109.75,False,2019-11
+1573831800,2019-11-15 10:30:00,ES,RS,model_forward,long,3107.5,3105.5,3111.25,2.0,3.75,1.875,0.6000000000000001,"['model_up_bias', 'model_up_bias']",session,target,3111.25,False,2019-11
+1573225500,2019-11-08 10:05:00,ES,RR,model_forward,long,3078.25,3076.25,3085.25,2.0,7.0,1.875,0.55,"['model_up_bias', 'model_up_bias']",session,timeout,3082.0,False,2019-11
+1575041400,2019-11-29 10:30:00,ES,RS,model_forward,short,3147.0,3150.25,3142.0,3.25,5.0,1.5384615384615383,0.65,"['model_down_bias', 'model_down_bias']",session,target,3142.0,False,2019-11
+1574433000,2019-11-22 09:30:00,ES,RR,wddrb_sigma_distribution,long,3108.5,3106.5,3111.5,2.0,3.0,1.5,0.65,"['wddrb_mid_sigma', 'model_up_bias']",session,target,3111.5,False,2019-11
+1574433000,2019-11-22 09:30:00,ES,RR,model_forward,long,3108.5,3106.5,3111.5,2.0,3.0,1.5,0.65,"['model_up_bias', 'model_up_bias']",session,target,3111.5,False,2019-11
+1574991000,2019-11-28 20:30:00,ES,AS,wddrb_sigma_distribution,short,3148.0,3150.0,3145.75,2.0,2.25,1.125,0.65,"['wddrb_mid_sigma', 'model_down_bias']",session,target,3145.75,False,2019-11
+1573203600,2019-11-08 04:00:00,ES,OS,wddrb_sigma_distribution,long,3082.25,3087.875,3097.0,5.625,14.75,1.0,0.7000000000000001,"['wddrb_mid_sigma', 'model_up_bias', 'cluster_near_weekly']",session,stop,3087.875,False,2019-11
+1573203600,2019-11-08 04:00:00,ES,OS,cluster_rejection_fade,long,3082.25,3087.875,3097.0,5.625,14.75,1.0,0.7000000000000001,"['rejection_bias', 'cluster_confluence', 'model_up_bias', 'cluster_near_weekly']",session,stop,3087.875,False,2019-11
+1573204200,2019-11-08 04:10:00,ES,OS,wddrb_sigma_distribution,long,3081.75,3087.875,3097.0,6.125,15.25,1.0,0.7000000000000001,"['wddrb_mid_sigma', 'model_up_bias', 'cluster_near_weekly']",session,stop,3087.875,False,2019-11
+1573204200,2019-11-08 04:10:00,ES,OS,cluster_rejection_fade,long,3081.75,3087.875,3097.0,6.125,15.25,1.0,0.7000000000000001,"['rejection_bias', 'cluster_confluence', 'model_up_bias', 'cluster_near_weekly']",session,stop,3087.875,False,2019-11
+1573227000,2019-11-08 10:30:00,ES,RS,range_post_break_pullback,long,3082.25,3072.5,3098.0,9.75,15.75,1.0,0.7000000000000001,"['pullback_first_high', 'post_break', 'model_up_bias', 'cluster_near_weekly']",session,timeout,3092.0,False,2019-11
+1573176600,2019-11-07 20:30:00,ES,AS,cluster_rejection_fade,long,3080.5,3087.875,3097.0,7.375,16.5,1.0,0.65,"['rejection_bias', 'cluster_confluence', 'cluster_near_weekly']",session,stop,3087.875,False,2019-11
+1573200000,2019-11-08 03:00:00,ES,OR,cluster_rejection_fade,long,3082.5,3087.875,3097.0,5.375,14.5,1.0,0.65,"['rejection_bias', 'cluster_confluence', 'cluster_near_weekly']",session,stop,3087.875,False,2019-11
+1574409600,2019-11-22 03:00:00,ES,OR,wddrb_sigma_distribution,short,3108.0,3101.625,3085.375,6.375,22.625,1.0,0.65,"['wddrb_mid_sigma', 'model_down_bias']",session,stop,3101.625,False,2019-11
+1574436600,2019-11-22 10:30:00,ES,RS,model_forward,long,3104.25,3107.125,3111.75,2.875,7.5,1.0,0.65,"['model_up_bias', 'model_up_bias']",session,stop,3107.125,False,2019-11
+1573828200,2019-11-15 09:30:00,ES,RR,wddrb_sigma_distribution,long,3106.25,3108.5,3111.25,2.25,5.0,1.0,0.55,"['wddrb_mid_sigma', 'model_up_bias']",session,stop,3108.5,False,2019-11
+1575018300,2019-11-29 04:05:00,ES,OS,wddrb_sigma_distribution,long,3147.25,3149.25,3151.0,2.0,3.75,1.0,0.55,"['wddrb_mid_sigma', 'model_up_bias']",session,stop,3149.25,False,2019-11
+1573227000,2019-11-08 10:30:00,ES,RS,wddrb_sigma_distribution,long,3082.25,3078.875,3085.25,3.375,3.0,0.8888888888888888,0.7000000000000001,"['wddrb_mid_sigma', 'model_up_bias', 'cluster_near_weekly']",session,target,3085.25,False,2019-11
+1574991000,2019-11-28 20:30:00,ES,AS,model_forward,short,3148.0,3151.0,3145.75,3.0,2.25,0.75,0.65,"['model_down_bias', 'model_down_bias']",session,target,3145.75,False,2019-11
+1574434500,2019-11-22 09:55:00,ES,RR,wddrb_sigma_distribution,long,3110.5,3108.5,3111.75,2.0,1.25,0.625,0.55,"['wddrb_mid_sigma', 'model_up_bias']",session,target,3111.75,False,2019-11
+1574434500,2019-11-22 09:55:00,ES,RR,model_forward,long,3110.5,3108.5,3111.75,2.0,1.25,0.625,0.55,"['model_up_bias', 'model_up_bias']",session,target,3111.75,False,2019-11
+1573223400,2019-11-08 09:30:00,ES,RR,wddrb_sigma_distribution,long,3080.75,3078.75,3081.75,2.0,1.0,0.5,0.7000000000000001,"['wddrb_mid_sigma', 'model_up_bias', 'cluster_near_weekly']",session,target,3081.75,False,2019-11
+1573223400,2019-11-08 09:30:00,ES,RR,cluster_rejection_fade,long,3080.75,3078.75,3081.75,2.0,1.0,0.5,0.7000000000000001,"['rejection_bias', 'cluster_confluence', 'model_up_bias', 'cluster_near_weekly']",session,target,3081.75,False,2019-11
+1573173000,2019-11-07 19:30:00,ES,AR,model_forward,short,3086.25,3097.0,3069.625,10.75,16.625,0.4186046511627907,0.6000000000000001,"['model_down_bias', 'model_down_bias', 'cluster_near_monthly']",session,timeout,3081.75,False,2019-11
+1575018300,2019-11-29 04:05:00,ES,OS,model_forward,short,3147.25,3151.0,3145.75,3.75,1.5,0.4,0.65,"['model_down_bias', 'model_down_bias']",session,target,3145.75,False,2019-11
+1573176600,2019-11-07 20:30:00,ES,AS,wddrb_sigma_distribution,short,3080.5,3087.875,3069.625,7.375,10.875,0.2711864406779661,0.6000000000000001,"['wddrb_mid_sigma', 'model_down_bias', 'cluster_near_weekly']",session,timeout,3078.5,False,2019-11
+1576247700,2019-12-13 09:35:00,ES,RR,range_post_break_pullback,long,3168.25,3160.25,3176.75,8.0,8.5,1.0625,0.55,"['pullback_first_high', 'post_break', 'model_up_bias']",session,target,3176.75,False,2019-12
+1576228800,2019-12-13 04:20:00,ES,OS,cluster_rejection_fade,short,3181.75,3158.125,3119.375,23.625,62.375,1.0,0.7000000000000001,"['rejection_bias', 'cluster_confluence', 'model_down_bias', 'cluster_near_darkpool']",session,stop,3158.125,False,2019-12
+1576228800,2019-12-13 04:20:00,ES,OS,model_forward,short,3181.75,3177.5,3119.375,4.25,62.375,1.0,0.7000000000000001,"['model_down_bias', 'model_down_bias', 'cluster_near_darkpool']",session,stop,3177.5,False,2019-12
+1575622800,2019-12-06 04:00:00,ES,OS,model_forward,short,3124.25,3120.25,3094.75,4.0,29.5,1.0,0.65,"['model_down_bias', 'model_down_bias']",session,stop,3120.25,False,2019-12
+1576828800,2019-12-20 03:00:00,ES,OR,wddrb_sigma_distribution,short,3210.5,3204.25,3190.75,6.25,19.75,1.0,0.65,"['wddrb_mid_sigma', 'model_down_bias']",session,stop,3204.25,False,2019-12
+1576224000,2019-12-13 03:00:00,ES,OR,wddrb_sigma_distribution,short,3179.75,3158.125,3119.375,21.625,60.375,1.0,0.6000000000000001,"['wddrb_mid_sigma', 'model_down_bias', 'cluster_near_darkpool']",session,stop,3158.125,False,2019-12
+1575619200,2019-12-06 03:00:00,ES,OR,wddrb_sigma_distribution,short,3123.75,3111.75,3094.75,12.0,29.0,1.0,0.55,"['wddrb_mid_sigma', 'model_down_bias']",session,stop,3111.75,False,2019-12
+1575619200,2019-12-06 03:00:00,ES,OR,model_forward,short,3123.75,3120.25,3094.75,3.5,29.0,1.0,0.55,"['model_down_bias', 'model_down_bias']",session,stop,3120.25,False,2019-12
+1576251600,2019-12-13 10:40:00,ES,RS,wddrb_sigma_distribution,long,3167.75,3172.125,3184.0,4.375,16.25,1.0,0.55,"['wddrb_mid_sigma', 'model_up_bias']",session,stop,3172.125,False,2019-12
+1576253700,2019-12-13 11:15:00,ES,RS,wddrb_sigma_distribution,long,3161.0,3172.125,3184.0,11.125,23.0,1.0,0.55,"['wddrb_mid_sigma', 'model_up_bias']",session,stop,3172.125,False,2019-12
+1576253700,2019-12-13 11:15:00,ES,RS,model_forward,long,3161.0,3172.125,3184.0,11.125,23.0,1.0,0.55,"['model_up_bias', 'model_up_bias']",session,stop,3172.125,False,2019-12
+1576805400,2019-12-19 20:30:00,ES,AS,wddrb_sigma_distribution,short,3210.75,3204.25,3190.75,6.5,20.0,1.0,0.55,"['wddrb_mid_sigma', 'model_down_bias']",session,stop,3204.25,False,2019-12
+1576852800,2019-12-20 09:40:00,ES,RR,wddrb_sigma_distribution,long,3221.0,3219.0,3224.75,2.0,3.75,1.0,0.55,"['wddrb_mid_sigma', 'model_up_bias']",session,timeout,3223.0,False,2019-12
+1576852800,2019-12-20 09:40:00,ES,RR,model_forward,long,3221.0,3219.0,3224.75,2.0,3.75,1.0,0.55,"['model_up_bias', 'model_up_bias']",session,timeout,3223.0,False,2019-12
+1577716200,2019-12-30 09:30:00,ES,RR,wddrb_sigma_distribution,long,3236.5,3239.625,3243.0,3.125,6.5,1.0,0.55,"['wddrb_mid_sigma', 'model_up_bias']",session,stop,3239.625,False,2019-12
+1577719800,2019-12-30 10:30:00,ES,RS,model_forward,long,3219.0,3230.125,3243.0,11.125,24.0,1.0,0.55,"['model_up_bias', 'model_up_bias']",session,stop,3230.125,False,2019-12
+1576855800,2019-12-20 10:30:00,ES,RS,wddrb_sigma_distribution,long,3223.5,3221.5,3224.75,2.0,1.25,0.625,0.55,"['wddrb_mid_sigma', 'model_up_bias']",session,target,3224.75,False,2019-12
+1576855800,2019-12-20 10:30:00,ES,RS,model_forward,long,3223.5,3221.5,3224.75,2.0,1.25,0.625,0.55,"['model_up_bias', 'model_up_bias']",session,target,3224.75,False,2019-12
+1576856700,2019-12-20 10:45:00,ES,RS,wddrb_sigma_distribution,long,3224.25,3222.0,3224.75,2.25,0.5,0.2222222222222222,0.55,"['wddrb_mid_sigma', 'model_up_bias']",session,target,3224.75,False,2019-12
+1576856700,2019-12-20 10:45:00,ES,RS,model_forward,long,3224.25,3222.0,3224.75,2.25,0.5,0.2222222222222222,0.55,"['model_up_bias', 'model_up_bias']",session,target,3224.75,False,2019-12
+1575643200,2019-12-06 09:40:00,ES,RR,range_post_break_pullback,long,3143.25,3138.5,3148.0,4.75,4.75,0.2105263157894736,0.6000000000000001,"['pullback_first_high', 'post_break', 'model_up_bias', 'cluster_near_darkpool']",session,timeout,3144.25,False,2019-12
+1576832400,2019-12-20 04:00:00,ES,OS,wddrb_sigma_distribution,long,3210.25,3204.25,3211.0,6.0,0.75,0.125,0.55,"['wddrb_mid_sigma', 'model_up_bias']",session,target,3211.0,False,2019-12
+1575595800,2019-12-05 20:30:00,ES,AS,range_post_break_pullback,long,3121.0,3103.25,3137.25,17.75,16.25,0.0140845070422535,0.7000000000000001,"['pullback_first_high', 'post_break', 'model_up_bias', 'cluster_near_monthly']",session,timeout,3121.25,False,2019-12
+1576805400,2019-12-19 20:30:00,ES,AS,range_post_break_pullback,short,3210.75,3213.5,3209.25,2.75,1.5,0.0,0.55,"['pullback_first_low', 'post_break', 'model_down_bias']",session,timeout,3210.75,False,2019-12
+1576852200,2019-12-20 09:30:00,ES,RR,wddrb_sigma_distribution,short,3223.0,3225.0,3218.375,2.0,4.625,0.0,0.55,"['wddrb_mid_sigma', 'model_down_bias']",session,timeout,3223.0,False,2019-12
+1575595800,2019-12-05 20:30:00,ES,AS,wddrb_sigma_distribution,long,3121.0,3111.75,3120.25,9.25,0.75,-0.081081081081081,0.7000000000000001,"['wddrb_mid_sigma', 'model_up_bias', 'cluster_near_monthly']",session,target,3120.25,False,2019-12
+1576208700,2019-12-12 22:45:00,ES,AS,wddrb_sigma_distribution,long,3179.5,3158.125,3177.5,21.375,2.0,-0.0935672514619883,0.55,"['wddrb_mid_sigma', 'model_up_bias']",session,target,3177.5,False,2019-12
+1576208700,2019-12-12 22:45:00,ES,AS,model_forward,long,3179.5,3158.125,3177.5,21.375,2.0,-0.0935672514619883,0.55,"['model_up_bias', 'model_up_bias']",session,target,3177.5,False,2019-12
+1576224000,2019-12-13 03:00:00,ES,OR,cluster_rejection_fade,long,3179.75,3158.125,3177.5,21.625,2.25,-0.1040462427745664,0.65,"['rejection_bias', 'cluster_confluence', 'cluster_near_darkpool']",session,target,3177.5,False,2019-12
+1576201200,2019-12-12 20:40:00,ES,AS,wddrb_sigma_distribution,long,3180.75,3158.125,3177.5,22.625,3.25,-0.143646408839779,0.55,"['wddrb_mid_sigma', 'model_up_bias']",session,target,3177.5,False,2019-12
