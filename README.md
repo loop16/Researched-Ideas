@@ -71,7 +71,7 @@ The foundation of this work began with understanding how markets behave. Firstly
 
 #### Intraday Session Cycles
 
-<img src="3%20Intraday%20Sessions.png" width="900" alt="3 Intraday Sessions">
+<img src="images/3%20Intraday%20Sessions.png" width="900" alt="3 Intraday Sessions">
 
 This is the intraday and overnight cycle with the Asia, London, and New York cycle. They each have the first hour of the session defining the range, and the rest of the session. 
 NY 9:30-10:25 range, 10:30-15:55 session.
@@ -91,17 +91,17 @@ First Quarter of the year defining for the next 3 quarters of the year.
 <tr>
 <td width="33%">
 <strong>1 Hour</strong><br/>
-<img src="1%20hour%20DR.png" width="100%" alt="1 Hour DR">
+<img src="images/1%20hour%20DR.png" width="100%" alt="1 Hour DR">
 <p style="font-size: 0.9em;"></p>
 </td>
 <td width="33%">
 <strong>Quarterly DR</strong><br/>
-<img src="Quarterly%20PLTR.png" width="100%" alt="Quarterly DR">
+<img src="images/Quarterly%20PLTR.png" width="100%" alt="Quarterly DR">
 <p style="font-size: 0.9em;"></p>
 </td>
 <td width="33%">
 <strong>Yearly</strong><br/>
-<img src="Yearly%20DR.png" width="100%" alt="Yearly DR">
+<img src="images/Yearly%20DR.png" width="100%" alt="Yearly DR">
 <p style="font-size: 0.9em;"></p>
 </td>
 </tr>
@@ -115,25 +115,32 @@ The location of the open and close, in relation to the range can give a solid li
 
 Another feature is the location of the ranges in relation to each other. For instance a long true london/OR range will 50% of the time result in an Upside box where price is above the london range. This is the Model Data Base
 
+# The market can be looked at as 3 vectors, time, price, location
+## 4 if you include good volume data
+
+
 <table>
 <tr>
 <td width="33%">
 <strong>Quarterly Data Analysis</strong><br/>
-<img src="Quarterdata.png" width="100%" alt="Quarterly Data Analysis">
+<img src="images/Quarterdata.png" width="100%" alt="Quarterly Data Analysis">
 <p style="font-size: 0.9em;">Quarterly range breakout analysis showing how price behaves relative to quarterly ranges across multiple quarters. This data drives the quarterly trading strategies. Long break out shown</p>
 </td>
 <td width="33%">
 <strong>Model Data & Predictions</strong><br/>
-<img src="ModelData.png" width="100%" alt="Model Data Analysis">
+<img src="images/ModelData.png" width="100%" alt="Model Data Analysis">
 <p style="font-size: 0.9em;">Model database where probabilities to where the next session will be location wise and its potential outcomes can be developed</p>
 </td>
 <td width="33%">
 <strong>RDR Breakout Data</strong><br/>
-<img src="RDR%20break%20out%20Data.png" width="100%" alt="RDR Breakout Data Analysis">
+<img src="images/RDR%20break%20out%20Data.png" width="100%" alt="RDR Breakout Data Analysis">
 <p style="font-size: 0.9em;">Regular Range session breakout analysis showing the distribution of price for a long breakout in the first 15 minutes of the session</p>
 </td>
 </tr>
 </table>
+
+https://models-rda4qjmdgur4qh7rvpfeaq.streamlit.app/
+link to the model database
 
 ### Sequencing
 
@@ -145,7 +152,7 @@ In the 04:00 to 15:55 cycle, the high or low of the 4am to 8:25am is expected to
 
 In short this is a way of determing which highs and lows of the day are important to hold/trade from. It is another data based model.
 
-<img src="Sequence.png" width="900" alt="Sequencing">
+<img src="images/Sequence.png" width="900" alt="Sequencing">
 
 
 ## Data is a very big part of trading and it should a central focus point, but at this depth it it does not show and highlight important / real time occurences in the market.
@@ -164,7 +171,9 @@ The same logic can be applied to the volume imbalance / open close imbalance tha
 
 99.7% of all 5m imbalances from 2016 onwards have been filled on NQ futures and on any given day, its 94%. 
 
-<img src="Volume%20Imbalances%20NQ.png" width="900" alt="Volume Imbalances on NQ ">
+Volume imbalances are very very interesting. The 1 minute imbalances when formed and filled (price returns to the gap) often have a nice directionality to them. They add very interesting areas for market participants to interact at. 
+
+<img src="images/Volume%20Imbalances%20NQ.png" width="900" alt="Volume Imbalances on NQ ">
 
 ### Cluster Levels and Support/Resistance
 
@@ -195,7 +204,7 @@ Importantly the weekly levels are the most consistent in developing the box high
 ## IMPORTANT
 ### The best rejections will have a perfect close price aligned with the levels, or a perfect wick to the level
 
-<img src="WeeklyClusterLevels.png" width="900" alt="Weekly Cluster Levels">
+<img src="images/WeeklyClusterLevels.png" width="900" alt="Weekly Cluster Levels">
 
 
 # Turning this information into actual trading systems
@@ -206,7 +215,7 @@ Importantly the weekly levels are the most consistent in developing the box high
 
 ## Two Trade RS session break out
 
-<img src="RDR_Session_Backtest.png" width="900" alt="RDR Session Breakdown">
+<img src="images/RDR_Session_Backtest.png" width="900" alt="RDR Session Breakdown">
 
 The rules for this strategy were pretty simple. a copy can be found in the rdr_session backtest folder.
 
@@ -228,17 +237,17 @@ This is without mentioning the liquidity issues that your going to run into as s
 <tr>
 <td width="33%">
 <strong>Commissions</strong><br/>
-<img src="equity_with_commissionsNoSlip.png" width="100%" alt="Commissions">
+<img src="images/equity_with_commissionsNoSlip.png" width="100%" alt="Commissions">
 <p style="font-size: 0.9em;"></p>
 </td>
 <td width="33%">
 <strong>Slippage</strong><br/>
-<img src="equity_curves_by_asset.png" width="100%" alt="Slippage">
+<img src="images/equity_curves_by_asset.png" width="100%" alt="Slippage">
 <p style="font-size: 0.9em;"></p>
 </td>
 <td width="33%">
 <strong>Commissions + Slippage</strong><br/>
-<img src="equity_with_commissions.png" width="100%" alt="Slippage + Comissions">
+<img src="images/equity_with_commissions.png" width="100%" alt="Slippage + Comissions">
 <p style="font-size: 0.9em;"></p>
 </td>
 </tr>
@@ -266,11 +275,11 @@ This was a system with using some simple logic about the quarterly ranges as a s
 <tr>
 <td width="50%">
 <strong>Quarterly SPX Range Breakout Performance</strong><br/>
-<img src="quarterly_and_downloader_bundle/quarterly_expiration_strategy_performance.png" width="100%" alt="Quarterly SPX Backtest Performance">
+<img src="images/quarterly_expiration_strategy_performance.png" width="100%" alt="Quarterly SPX Backtest Performance">
 </td>
 <td width="50%">
 <strong>Options Strategy Performance</strong><br/>
-<img src="quarterly_and_downloader_bundle/options_strategy_performance.png" width="100%" alt="Options Strategy Performance">
+<img src="images/options_strategy_performance.png" width="100%" alt="Options Strategy Performance">
 </td>
 </tr>
 </table>
@@ -393,7 +402,7 @@ A lot of models were tested across, TABpfn, GRU, LSTM, Neural Networks, ect.
 [breakout_optimization/](breakout_optimization/)
 
 
-<img src="breakout_optimization/equity_curve_0.8pct_stops.png" width="900" alt="Equity Curve with 0.8% Stops">
+<img src="images/equity_curve_0.8pct_stops.png" width="900" alt="Equity Curve with 0.8% Stops">
 
 # This is really important because it highlights the concept of letting your winners run alongside the emphasis of risk management. Its possible there is no directional edge in this strategy yet it has a solid return profile especially on an asset that is arguably range bound like CL. This also is very simple and could probably be mirrored using a much simpler feature set or raw approach.
 
